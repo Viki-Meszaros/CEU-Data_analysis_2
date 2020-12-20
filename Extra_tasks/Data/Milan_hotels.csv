@@ -1,0 +1,233 @@
+country,city_actual,rating_count,center1distance,center1label,center2distance,center2label,neighbourhood,price,price_night,city,stars,ratingta,ratingta_count,accommodation_type,ratings,scarce_room,hotel_id,offer,offer_cat,year,month,weekend,holiday,nnights,distance,distance_alter
+Italy,Milan,145,2.1 miles,City centre,3.8 miles,Milan Romolo Station,Bovisa,80,price for 1 night,Milan,4,3.5,314,Hotel,3.7,1,9816,1,15-50% offer,2017,11,0,0,1,2.1,3.8
+Italy,Milan,89,1.7 miles,City centre,3.7 miles,Milan Romolo Station,Bovisa,100,price for 1 night,Milan,3,3.5,233,Hotel,3.7,1,9820,1,15-50% offer,2017,11,0,0,1,1.7,3.7
+Italy,Milan,136,1.9 miles,City centre,3.8 miles,Milan Romolo Station,Bovisa,65,price for 1 night,Milan,4,3.5,903,Hotel,3.9,0,9821,1,15-50% offer,2017,11,0,0,1,1.9,3.8
+Italy,Milan,67,2.4 miles,City centre,4.1 miles,Milan Romolo Station,Bovisa,93,price for 1 night,Milan,3,2.5,142,Hotel,3.2,0,9822,0,0% no offer,2017,11,0,0,1,2.4,4.1
+Italy,Milan,164,2.8 miles,City centre,4.7 miles,Milan Romolo Station,Bovisa,104,price for 1 night,Milan,4,4,783,Hotel,4.1,0,9823,1,15-50% offer,2017,11,0,0,1,2.8,4.7
+Italy,Milan,246,0.9 miles,City centre,2.7 miles,Milan Romolo Station,Chinatown,103,price for 1 night,Milan,4,4,568,Hotel,4,1,9869,1,15-50% offer,2017,11,0,0,1,0.9,2.7
+Italy,Milan,53,1.8 miles,City centre,3.4 miles,Milan Romolo Station,Citta Studi,124,price for 1 night,Milan,4,3.5,156,Hotel,3.9,1,9874,1,15-50% offer,2017,11,0,0,1,1.8,3.4
+Italy,Milan,181,1.9 miles,City centre,3.8 miles,Milan Romolo Station,Citta Studi,73,price for 1 night,Milan,3,4,315,Hotel,3.9,1,9875,1,50%-75% offer,2017,11,0,0,1,1.9,3.8
+Italy,Milan,209,1.9 miles,City centre,3.8 miles,Milan Romolo Station,Citta Studi,75,price for 1 night,Milan,3,4,445,Hotel,3.7,1,9876,1,15-50% offer,2017,11,0,0,1,1.9,3.8
+Italy,Milan,103,2.5 miles,City centre,4.3 miles,Milan Romolo Station,Citta Studi,52,price for 1 night,Milan,3,2.5,137,Hotel,3.2,1,9881,1,1-15% offer,2017,11,0,0,1,2.5,4.3
+Italy,Milan,49,2.6 miles,City centre,4.4 miles,Milan Romolo Station,Citta Studi,118,price for 1 night,Milan,3,3.5,239,Hotel,3.5,1,9885,1,75%+ offer,2017,11,0,0,1,2.6,4.4
+Italy,Milan,154,2.9 miles,City centre,4.8 miles,Milan Romolo Station,Citta Studi,158,price for 1 night,Milan,4,4.5,575,Hotel,4.4,0,9890,1,15-50% offer,2017,11,0,0,1,2.9,4.8
+Italy,Milan,8,1.8 miles,City centre,3.3 miles,Milan Romolo Station,Citta Studi,163,price for 1 night,Milan,3,4,150,Hotel,3.5,1,9895,0,0% no offer,2017,11,0,0,1,1.8,3.3
+Italy,Milan,78,1.8 miles,City centre,3.8 miles,Milan Romolo Station,Citta Studi,78,price for 1 night,Milan,3,3,115,Hotel,3.2,1,9901,1,15-50% offer,2017,11,0,0,1,1.8,3.8
+Italy,Milan,63,1.9 miles,City centre,3.3 miles,Milan Romolo Station,Citta Studi,67,price for 1 night,Milan,3,2.5,114,Hotel,3.2,1,9905,0,0% no offer,2017,11,0,0,1,1.9,3.3
+Italy,Milan,66,2.0 miles,City centre,3.5 miles,Milan Romolo Station,Citta Studi,88,price for 1 night,Milan,3,2.5,79,Hotel,3.2,1,9913,0,0% no offer,2017,11,0,0,1,2,3.5
+Italy,Milan,133,2.0 miles,City centre,3.8 miles,Milan Romolo Station,Citta Studi,89,price for 1 night,Milan,3,4,360,Hotel,3.7,0,9917,1,15-50% offer,2017,11,0,0,1,2,3.8
+Italy,Milan,117,2.0 miles,City centre,4.0 miles,Milan Romolo Station,Citta Studi,98,price for 1 night,Milan,3,4,565,Hotel,4,0,9918,0,0% no offer,2017,11,0,0,1,2,4
+Italy,Milan,81,2.1 miles,City centre,4.1 miles,Milan Romolo Station,Citta Studi,127,price for 1 night,Milan,4,3.5,193,Hotel,3.9,1,9919,1,15-50% offer,2017,11,0,0,1,2.1,4.1
+Italy,Milan,116,1.5 miles,City centre,3.1 miles,Milan Romolo Station,Citta Studi,106,price for 1 night,Milan,3,4,337,Hotel,4,1,9920,0,0% no offer,2017,11,0,0,1,1.5,3.1
+Italy,Milan,71,1.0 mile,City centre,2.9 miles,Milan Romolo Station,Corso Buenos Aires,130,price for 1 night,Milan,3,4,458,Hotel,3.7,1,9933,1,15-50% offer,2017,11,0,0,1,1,2.9
+Italy,Milan,48,1.2 miles,City centre,3.1 miles,Milan Romolo Station,Corso Buenos Aires,108,price for 1 night,Milan,3,3.5,156,Hotel,3.5,1,9934,0,0% no offer,2017,11,0,0,1,1.2,3.1
+Italy,Milan,231,1.3 miles,City centre,3.2 miles,Milan Romolo Station,Corso Buenos Aires,115,price for 1 night,Milan,4,3,500,Hotel,3.5,0,9935,1,15-50% offer,2017,11,0,0,1,1.3,3.2
+Italy,Milan,168,1.3 miles,City centre,3.2 miles,Milan Romolo Station,Corso Buenos Aires,158,price for 1 night,Milan,4,4,765,Hotel,4,0,9936,0,0% no offer,2017,11,0,0,1,1.3,3.2
+Italy,Milan,166,1.0 mile,City centre,2.9 miles,Milan Romolo Station,Corso Buenos Aires,199,price for 1 night,Milan,4,4,1115,Hotel,4,0,9938,1,15-50% offer,2017,11,0,0,1,1,2.9
+Italy,Milan,280,1.4 miles,City centre,3.3 miles,Milan Romolo Station,Corso Buenos Aires,163,price for 1 night,Milan,4,4,2223,Hotel,4.4,0,9941,1,15-50% offer,2017,11,0,0,1,1.4,3.3
+Italy,Milan,106,1.4 miles,City centre,3.4 miles,Milan Romolo Station,Corso Buenos Aires,146,price for 1 night,Milan,4,4,384,Hotel,4.1,0,9950,1,15-50% offer,2017,11,0,0,1,1.4,3.4
+Italy,Milan,103,1.7 miles,City centre,3.7 miles,Milan Romolo Station,Corso Buenos Aires,91,price for 1 night,Milan,3,3.5,223,Hotel,3.9,1,9951,1,15-50% offer,2017,11,0,0,1,1.7,3.7
+Italy,Milan,2,1.3 miles,City centre,3.3 miles,Milan Romolo Station,Corso Buenos Aires,84,price for 1 night,Milan,3,3,357,Hotel,3,1,9952,0,0% no offer,2017,11,0,0,1,1.3,3.3
+Italy,Milan,245,1.2 miles,City centre,3.2 miles,Milan Romolo Station,Corso Buenos Aires,113,price for 1 night,Milan,3,3.5,997,Hotel,3.7,0,9954,1,50%-75% offer,2017,11,0,0,1,1.2,3.2
+Italy,Milan,379,1.2 miles,City centre,3.2 miles,Milan Romolo Station,Corso Buenos Aires,157,price for 1 night,Milan,4,4,1082,Hotel,4,0,9955,1,15-50% offer,2017,11,0,0,1,1.2,3.2
+Italy,Milan,167,1.2 miles,City centre,3.1 miles,Milan Romolo Station,Corso Buenos Aires,106,price for 1 night,Milan,3,4.5,490,Hotel,4.4,1,9956,1,15-50% offer,2017,11,0,0,1,1.2,3.1
+Italy,Milan,115,1.0 mile,City centre,3.0 miles,Milan Romolo Station,Corso Buenos Aires,160,price for 1 night,Milan,4,4,516,Hotel,4,0,9961,1,15-50% offer,2017,11,0,0,1,1,3
+Italy,Milan,290,1.7 miles,City centre,3.0 miles,Milan Romolo Station,Corso Sempione,147,price for 1 night,Milan,4,4.5,1682,Hotel,4.1,0,9964,1,75%+ offer,2017,11,0,0,1,1.7,3
+Italy,Milan,68,3.3 miles,City centre,4.3 miles,Milan Romolo Station,Fiera Milano Rho,87,price for 1 night,Milan,3,3,118,Hotel,3.4,1,9986,1,1-15% offer,2017,11,0,0,1,3.3,4.3
+Italy,Milan,287,4.4 miles,City centre,5.4 miles,Milan Romolo Station,Fiera Milano Rho,105,price for 1 night,Milan,4,4,1216,Hotel,3.9,0,10010,1,15-50% offer,2017,11,0,0,1,4.4,5.4
+Italy,Milan,72,5.8 miles,City centre,4.9 miles,Milan Romolo Station,Fiera Milano Rho,133,price for 1 night,Milan,4,4.5,316,Hotel,4.1,0,10012,1,1-15% offer,2017,11,0,0,1,5.8,4.9
+Italy,Milan,965,4.2 miles,City centre,6.1 miles,Milan Romolo Station,Fiera Milano Rho,89,price for 1 night,Milan,4,3.5,1797,Hotel,4,0,10020,1,50%-75% offer,2017,11,0,0,1,4.2,6.1
+Italy,Milan,214,4.1 miles,City centre,5.2 miles,Milan Romolo Station,Fiera Milano Rho,58,price for 1 night,Milan,4,4,1228,Hotel,4,0,10021,1,75%+ offer,2017,11,0,0,1,4.1,5.2
+Italy,Milan,183,4.5 miles,City centre,5.5 miles,Milan Romolo Station,Fiera Milano Rho,117,price for 1 night,Milan,4,4,1031,Hotel,4,0,10028,1,15-50% offer,2017,11,0,0,1,4.5,5.5
+Italy,Milan,513,3.9 miles,City centre,2.5 miles,Milan Romolo Station,Milan,156,price for 1 night,Milan,4,4.5,37,Hotel,3.5,0,10055,0,0% no offer,2017,11,0,0,1,3.9,2.5
+Italy,Milan,649,1.2 miles,City centre,3.3 miles,Milan Romolo Station,Milan,170,price for 1 night,Milan,4,4,885,Hotel,4.1,0,10061,1,15-50% offer,2017,11,0,0,1,1.2,3.3
+Italy,Milan,433,1.3 miles,City centre,3.4 miles,Milan Romolo Station,Milan,144,price for 1 night,Milan,3.5,3.5,566,Hotel,4,1,10062,1,15-50% offer,2017,11,0,0,1,1.3,3.4
+Italy,Milan,444,1.4 miles,City centre,3.5 miles,Milan Romolo Station,Milan,154,price for 1 night,Milan,4,4,1435,Hotel,4.3,0,10064,1,15-50% offer,2017,11,0,0,1,1.4,3.5
+Italy,Milan,982,1.3 miles,City centre,3.4 miles,Milan Romolo Station,Milan,157,price for 1 night,Milan,4,4,1711,Hotel,4.1,1,10065,1,15-50% offer,2017,11,0,0,1,1.3,3.4
+Italy,Milan,157,0.6 miles,City centre,2.8 miles,Milan Romolo Station,Milan,109,price for 1 night,Milan,3,3.5,417,Hotel,3.7,1,10067,1,50%-75% offer,2017,11,0,0,1,0.6,2.8
+Italy,Milan,441,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,78,price for 1 night,Milan,3,3,442,Hotel,3.4,1,10080,1,15-50% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,120,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,91,price for 1 night,Milan,3,3.5,175,Hotel,3.9,1,10082,1,15-50% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,153,1.0 mile,City centre,3.1 miles,Milan Romolo Station,Milan,818,price for 1 night,Milan,3,2.5,672,Hotel,3.5,1,10085,0,0% no offer,2017,11,0,0,1,1,3.1
+Italy,Milan,228,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,179,price for 1 night,Milan,4,4,1189,Hotel,4,0,10086,1,15-50% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,139,1.9 miles,City centre,4.0 miles,Milan Romolo Station,Milan,121,price for 1 night,Milan,4,4,71,Hotel,4,1,10087,1,1-15% offer,2017,11,0,0,1,1.9,4
+Italy,Milan,451,1.1 miles,City centre,3.1 miles,Milan Romolo Station,Milan,85,price for 1 night,Milan,3,3.5,438,Hotel,3.7,0,10089,1,15-50% offer,2017,11,0,0,1,1.1,3.1
+Italy,Milan,114,0.8 miles,City centre,2.9 miles,Milan Romolo Station,Milan,123,price for 1 night,Milan,4,3.5,397,Hotel,3.5,0,10090,1,15-50% offer,2017,11,0,0,1,0.8,2.9
+Italy,Milan,331,1.5 miles,City centre,3.6 miles,Milan Romolo Station,Milan,77,price for 1 night,Milan,3,3.5,389,Hotel,3.5,0,10092,1,15-50% offer,2017,11,0,0,1,1.5,3.6
+Italy,Milan,49,3.9 miles,City centre,1.7 miles,Milan Romolo Station,Milan,101,price for 1 night,Milan,3,3.5,189,Hotel,3.9,0,10098,1,15-50% offer,2017,11,0,0,1,3.9,1.7
+Italy,Milan,625,1.3 miles,City centre,3.4 miles,Milan Romolo Station,Milan,144,price for 1 night,Milan,4,4,889,Hotel,4,0,10099,1,15-50% offer,2017,11,0,0,1,1.3,3.4
+Italy,Milan,148,1.7 miles,City centre,3.9 miles,Milan Romolo Station,Milan,113,price for 1 night,Milan,3,4.5,726,Hotel,4.4,0,10100,1,15-50% offer,2017,11,0,0,1,1.7,3.9
+Italy,Milan,481,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,156,price for 1 night,Milan,4,4,1321,Hotel,4.4,0,10102,1,15-50% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,196,1.4 miles,City centre,3.5 miles,Milan Romolo Station,Milan,134,price for 1 night,Milan,3,4,101,Hotel,4.3,1,10104,1,75%+ offer,2017,11,0,0,1,1.4,3.5
+Italy,Milan,817,0.9 miles,City centre,3.1 miles,Milan Romolo Station,Milan,131,price for 1 night,Milan,4,4,870,Hotel,4,0,10105,1,50%-75% offer,2017,11,0,0,1,0.9,3.1
+Italy,Milan,167,1.0 mile,City centre,3.0 miles,Milan Romolo Station,Milan,164,price for 1 night,Milan,4,4,919,Hotel,4,0,10106,1,15-50% offer,2017,11,0,0,1,1,3
+Italy,Milan,17,0.8 miles,City centre,2.9 miles,Milan Romolo Station,Milan,73,price for 1 night,Milan,3.5,3,574,Hotel,3.9,1,10107,1,15-50% offer,2017,11,0,0,1,0.8,2.9
+Italy,Milan,1242,0.9 miles,City centre,2.9 miles,Milan Romolo Station,Milan,87,price for 1 night,Milan,3,3.5,6370,Hotel,3.7,0,10108,1,15-50% offer,2017,11,0,0,1,0.9,2.9
+Italy,Milan,674,0.7 miles,City centre,2.8 miles,Milan Romolo Station,Milan,124,price for 1 night,Milan,4,4,1954,Hotel,4.1,1,10112,1,75%+ offer,2017,11,0,0,1,0.7,2.8
+Italy,Milan,111,1.7 miles,City centre,1.3 miles,Milan Romolo Station,Milan,167,price for 1 night,Milan,4,3.5,1234,Hotel,3.7,0,10113,1,1-15% offer,2017,11,0,0,1,1.7,1.3
+Italy,Milan,247,1.1 miles,City centre,3.3 miles,Milan Romolo Station,Milan,141,price for 1 night,Milan,4,4,253,Hotel,4,0,10114,1,1-15% offer,2017,11,0,0,1,1.1,3.3
+Italy,Milan,85,2.1 miles,City centre,4.2 miles,Milan Romolo Station,Milan,95,price for 1 night,Milan,3,3.5,122,Hotel,3.7,1,10119,1,15-50% offer,2017,11,0,0,1,2.1,4.2
+Italy,Milan,208,0.9 miles,City centre,2.9 miles,Milan Romolo Station,Milan,182,price for 1 night,Milan,4,4,1085,Hotel,4.3,0,10121,1,15-50% offer,2017,11,0,0,1,0.9,2.9
+Italy,Milan,268,0.9 miles,City centre,2.9 miles,Milan Romolo Station,Milan,130,price for 1 night,Milan,4,4,1152,Hotel,4.1,0,10122,1,50%-75% offer,2017,11,0,0,1,0.9,2.9
+Italy,Milan,522,1.2 miles,City centre,3.3 miles,Milan Romolo Station,Milan,187,price for 1 night,Milan,4,4,2700,Hotel,4.1,0,10126,1,50%-75% offer,2017,11,0,0,1,1.2,3.3
+Italy,Milan,255,1.1 miles,City centre,3.1 miles,Milan Romolo Station,Milan,174,price for 1 night,Milan,4,4,785,Hotel,4,1,10131,1,1-15% offer,2017,11,0,0,1,1.1,3.1
+Italy,Milan,484,3.8 miles,City centre,4.3 miles,Milan Romolo Station,Milan,151,price for 1 night,Milan,4,3.5,1667,Hotel,4,0,10133,0,0% no offer,2017,11,0,0,1,3.8,4.3
+Italy,Milan,31,3.4 miles,City centre,4.0 miles,Milan Romolo Station,Milan,190,price for 1 night,Milan,4,4,15,Hotel,4.5,1,10134,1,15-50% offer,2017,11,0,0,1,3.4,4
+Italy,Milan,118,1.4 miles,City centre,3.6 miles,Milan Romolo Station,Milan,192,price for 1 night,Milan,4,4,1165,Hotel,4.3,0,10139,1,15-50% offer,2017,11,0,0,1,1.4,3.6
+Italy,Milan,205,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,150,price for 1 night,Milan,3,3,479,Hotel,3.5,1,10143,0,0% no offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,278,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,91,price for 1 night,Milan,3,3.5,452,Hotel,3.5,1,10144,1,1-15% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,410,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,87,price for 1 night,Milan,3,3.5,600,Hotel,3.5,1,10145,1,15-50% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,55,0.8 miles,City centre,2.9 miles,Milan Romolo Station,Milan,92,price for 1 night,Milan,3,3,215,Hotel,2.9,1,10152,1,15-50% offer,2017,11,0,0,1,0.8,2.9
+Italy,Milan,158,1.6 miles,City centre,3.7 miles,Milan Romolo Station,Milan,66,price for 1 night,Milan,3,3,472,Hotel,3.5,0,10153,1,15-50% offer,2017,11,0,0,1,1.6,3.7
+Italy,Milan,279,1.4 miles,City centre,3.5 miles,Milan Romolo Station,Milan,133,price for 1 night,Milan,4,4,826,Hotel,4,0,10155,0,0% no offer,2017,11,0,0,1,1.4,3.5
+Italy,Milan,203,1.3 miles,City centre,3.4 miles,Milan Romolo Station,Milan,111,price for 1 night,Milan,3,2.5,190,Hotel,3.2,0,10159,0,0% no offer,2017,11,0,0,1,1.3,3.4
+Italy,Milan,149,1.3 miles,City centre,3.4 miles,Milan Romolo Station,Milan,141,price for 1 night,Milan,4,3.5,298,Hotel,3.7,0,10160,1,15-50% offer,2017,11,0,0,1,1.3,3.4
+Italy,Milan,401,1.6 miles,City centre,3.7 miles,Milan Romolo Station,Milan,102,price for 1 night,Milan,3,3.5,631,Hotel,3.9,1,10162,1,15-50% offer,2017,11,0,0,1,1.6,3.7
+Italy,Milan,207,1.4 miles,City centre,3.6 miles,Milan Romolo Station,Milan,67,price for 1 night,Milan,3,3,529,Hotel,3.2,0,10164,1,15-50% offer,2017,11,0,0,1,1.4,3.6
+Italy,Milan,190,1.4 miles,City centre,3.6 miles,Milan Romolo Station,Milan,93,price for 1 night,Milan,3,3.5,207,Hotel,3.7,1,10165,1,1-15% offer,2017,11,0,0,1,1.4,3.6
+Italy,Milan,1384,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,161,price for 1 night,Milan,4,4.5,6697,Hotel,4.5,0,10167,1,1-15% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,166,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,100,price for 1 night,Milan,3,4,537,Hotel,3.7,0,10168,1,15-50% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,338,1.2 miles,City centre,3.3 miles,Milan Romolo Station,Milan,114,price for 1 night,Milan,3,3,724,Hotel,3.2,0,10169,1,15-50% offer,2017,11,0,0,1,1.2,3.3
+Italy,Milan,96,1.3 miles,City centre,3.3 miles,Milan Romolo Station,Milan,82,price for 1 night,Milan,3,3.5,158,Hotel,3.7,1,10172,1,15-50% offer,2017,11,0,0,1,1.3,3.3
+Italy,Milan,146,2.8 miles,City centre,4.8 miles,Milan Romolo Station,Milan,74,price for 1 night,Milan,3,4,1030,Hotel,4,1,10179,1,15-50% offer,2017,11,0,0,1,2.8,4.8
+Italy,Milan,368,2.1 miles,City centre,4.3 miles,Milan Romolo Station,Milan,67,price for 1 night,Milan,4,3,343,Hotel,3.4,0,10182,1,15-50% offer,2017,11,0,0,1,2.1,4.3
+Italy,Milan,204,1.5 miles,City centre,3.6 miles,Milan Romolo Station,Milan,130,price for 1 night,Milan,4,4,1012,Hotel,4,1,10186,1,15-50% offer,2017,11,0,0,1,1.5,3.6
+Italy,Milan,579,1.4 miles,City centre,3.5 miles,Milan Romolo Station,Milan,177,price for 1 night,Milan,4,4,1345,Hotel,4.5,0,10187,1,15-50% offer,2017,11,0,0,1,1.4,3.5
+Italy,Milan,486,2.4 miles,City centre,4.6 miles,Milan Romolo Station,Milan,119,price for 1 night,Milan,4,3.5,1764,Hotel,4,0,10188,1,15-50% offer,2017,11,0,0,1,2.4,4.6
+Italy,Milan,136,2.4 miles,City centre,4.6 miles,Milan Romolo Station,Milan,68,price for 1 night,Milan,3,3.5,1237,Hotel,3.7,0,10191,1,15-50% offer,2017,11,0,0,1,2.4,4.6
+Italy,Milan,907,1.1 miles,City centre,3.2 miles,Milan Romolo Station,Milan,96,price for 1 night,Milan,3,3.5,675,Hotel,3.7,1,10194,1,50%-75% offer,2017,11,0,0,1,1.1,3.2
+Italy,Milan,458,1.0 mile,City centre,3.2 miles,Milan Romolo Station,Milan,286,price for 1 night,Milan,4,4,1084,Hotel,4.4,0,10195,1,1-15% offer,2017,11,0,0,1,1,3.2
+Italy,Milan,215,0.7 miles,City centre,2.0 miles,Milan Romolo Station,Milan Centre,202,price for 1 night,Milan,4,3.5,493,Hotel,3.7,0,10206,0,0% no offer,2017,11,0,0,1,0.7,2
+Italy,Milan,162,0.9 miles,City centre,1.4 miles,Milan Romolo Station,Milan Centre,167,price for 1 night,Milan,3,4,380,Hotel,4,0,10209,0,0% no offer,2017,11,0,0,1,0.9,1.4
+Italy,Milan,235,0.6 miles,City centre,1.6 miles,Milan Romolo Station,Milan Centre,146,price for 1 night,Milan,4,3,507,Hotel,3.5,0,10213,1,15-50% offer,2017,11,0,0,1,0.6,1.6
+Italy,Milan,319,0.8 miles,City centre,1.6 miles,Milan Romolo Station,Milan Centre,174,price for 1 night,Milan,3,3.5,691,Hotel,3.7,0,10214,0,0% no offer,2017,11,0,0,1,0.8,1.6
+Italy,Milan,79,0.9 miles,City centre,1.5 miles,Milan Romolo Station,Milan Centre,150,price for 1 night,Milan,3,4,400,Hotel,4.3,1,10217,1,15-50% offer,2017,11,0,0,1,0.9,1.5
+Italy,Milan,436,1.1 miles,City centre,1.6 miles,Milan Romolo Station,Milan Centre,134,price for 1 night,Milan,4,3.5,629,Hotel,3.9,1,10226,1,15-50% offer,2017,11,0,0,1,1.1,1.6
+Italy,Milan,56,1.4 miles,City centre,1.5 miles,Milan Romolo Station,Milan Centre,167,price for 1 night,Milan,4,3.5,155,Hotel,3.5,0,10228,0,0% no offer,2017,11,0,0,1,1.4,1.5
+Italy,Milan,576,0.7 miles,City centre,2.0 miles,Milan Romolo Station,Milan Centre,178,price for 1 night,Milan,4,3.5,771,Hotel,3.9,0,10232,1,15-50% offer,2017,11,0,0,1,0.7,2
+Italy,Milan,115,0.8 miles,City centre,1.3 miles,Milan Romolo Station,Milan Centre,164,price for 1 night,Milan,3,3.5,496,Hotel,3.9,1,10234,1,50%-75% offer,2017,11,0,0,1,0.8,1.3
+Italy,Milan,603,0.7 miles,City centre,1.9 miles,Milan Romolo Station,Milan Centre,224,price for 1 night,Milan,4,4,1812,Hotel,4.4,0,10235,1,50%-75% offer,2017,11,0,0,1,0.7,1.9
+Italy,Milan,59,1.2 miles,City centre,2.4 miles,Milan Romolo Station,Milan Centre,104,price for 1 night,Milan,3,3,126,Hotel,3.5,1,10241,1,15-50% offer,2017,11,0,0,1,1.2,2.4
+Italy,Milan,449,0.8 miles,City centre,1.6 miles,Milan Romolo Station,Milan Centre,224,price for 1 night,Milan,4,4,1463,Hotel,4.1,1,10242,1,15-50% offer,2017,11,0,0,1,0.8,1.6
+Italy,Milan,116,1.0 mile,City centre,2.8 miles,Milan Romolo Station,Milan Centre,185,price for 1 night,Milan,4,4,674,Hotel,4.3,0,10243,1,1-15% offer,2017,11,0,0,1,1,2.8
+Italy,Milan,88,1.3 miles,City centre,0.9 miles,Milan Romolo Station,Milan Centre,134,price for 1 night,Milan,3,4.5,386,Hotel,4.1,1,10245,1,75%+ offer,2017,11,0,0,1,1.3,0.9
+Italy,Milan,123,0.6 miles,City centre,1.7 miles,Milan Romolo Station,Milan Centre,282,price for 1 night,Milan,4,4.5,2159,Hotel,4.8,1,10247,1,15-50% offer,2017,11,0,0,1,0.6,1.7
+Italy,Milan,259,0.6 miles,City centre,1.7 miles,Milan Romolo Station,Milan Centre,252,price for 1 night,Milan,4,4.5,1084,Hotel,4.5,0,10248,1,1-15% offer,2017,11,0,0,1,0.6,1.7
+Italy,Milan,512,0.8 miles,City centre,1.6 miles,Milan Romolo Station,Milan Centre,246,price for 1 night,Milan,4,4.5,768,Hotel,4.6,1,10267,1,15-50% offer,2017,11,0,0,1,0.8,1.6
+Italy,Milan,184,0.6 miles,City centre,1.6 miles,Milan Romolo Station,Milan Centre,95,price for 1 night,Milan,3,2.5,264,Hotel,3,1,10275,1,15-50% offer,2017,11,0,0,1,0.6,1.6
+Italy,Milan,204,0.9 miles,City centre,1.3 miles,Milan Romolo Station,Milan Centre,212,price for 1 night,Milan,4,4,297,Hotel,4.1,1,10284,1,1-15% offer,2017,11,0,0,1,0.9,1.3
+Italy,Milan,60,0.3 miles,City centre,1.9 miles,Milan Romolo Station,Milan Centre,252,price for 1 night,Milan,4,4.5,56,Hotel,4.5,1,10287,1,15-50% offer,2017,11,0,0,1,0.3,1.9
+Italy,Milan,419,0.3 miles,City centre,1.9 miles,Milan Romolo Station,Milan Centre,243,price for 1 night,Milan,4,4,810,Hotel,4.5,0,10291,1,15-50% offer,2017,11,0,0,1,0.3,1.9
+Italy,Milan,60,1.1 miles,City centre,2.2 miles,Milan Romolo Station,Milan Centre,180,price for 1 night,Milan,3,3,131,Hotel,3,1,10293,0,0% no offer,2017,11,0,0,1,1.1,2.2
+Italy,Milan,366,0.5 miles,City centre,2.5 miles,Milan Romolo Station,Milan Centre,210,price for 1 night,Milan,4,4,656,Hotel,4.1,0,10294,1,15-50% offer,2017,11,0,0,1,0.5,2.5
+Italy,Milan,369,1.0 mile,City centre,1.3 miles,Milan Romolo Station,Milan Centre,86,price for 1 night,Milan,3,4,371,Hotel,4.3,0,10295,1,1-15% offer,2017,11,0,0,1,1,1.3
+Italy,Milan,290,0.2 miles,City centre,2.0 miles,Milan Romolo Station,Milan Centre,295,price for 1 night,Milan,4,4.5,660,Hotel,4.5,0,10297,1,15-50% offer,2017,11,0,0,1,0.2,2
+Italy,Milan,569,0.4 miles,City centre,2.4 miles,Milan Romolo Station,Milan Centre,204,price for 1 night,Milan,4,4,696,Hotel,4.1,0,10302,0,0% no offer,2017,11,0,0,1,0.4,2.4
+Italy,Milan,646,0.8 miles,City centre,1.7 miles,Milan Romolo Station,Milan Centre,208,price for 1 night,Milan,4,4,1202,Hotel,4.1,0,10304,1,1-15% offer,2017,11,0,0,1,0.8,1.7
+Italy,Milan,370,0.6 miles,City centre,2.7 miles,Milan Romolo Station,Milan Centre,218,price for 1 night,Milan,4,4,1082,Hotel,4.1,0,10316,1,15-50% offer,2017,11,0,0,1,0.6,2.7
+Italy,Milan,134,0.6 miles,City centre,1.7 miles,Milan Romolo Station,Milan Centre,170,price for 1 night,Milan,3,4,164,Hotel,4,1,10327,1,1-15% offer,2017,11,0,0,1,0.6,1.7
+Italy,Milan,133,0.8 miles,City centre,1.4 miles,Milan Romolo Station,Milan Centre,156,price for 1 night,Milan,4,3.5,421,Hotel,3.7,1,10329,1,15-50% offer,2017,11,0,0,1,0.8,1.4
+Italy,Milan,93,1.1 miles,City centre,1.3 miles,Milan Romolo Station,Milan Centre,186,price for 1 night,Milan,4,4,299,Hotel,4.3,1,10336,1,15-50% offer,2017,11,0,0,1,1.1,1.3
+Italy,Milan,55,0.6 miles,City centre,1.7 miles,Milan Romolo Station,Milan Centre,208,price for 1 night,Milan,3,4.5,1404,Hotel,4.6,1,10338,0,0% no offer,2017,11,0,0,1,0.6,1.7
+Italy,Milan,137,0.7 miles,City centre,1.5 miles,Milan Romolo Station,Milan Centre,184,price for 1 night,Milan,4,3,206,Hotel,3.5,1,10339,0,0% no offer,2017,11,0,0,1,0.7,1.5
+Italy,Milan,NA,1.0 mile,City centre,2.8 miles,Milan Romolo Station,Milan Centre,145,price for 1 night,Milan,3,3.5,299,Hotel,NA,1,10340,0,0% no offer,2017,11,0,0,1,1,2.8
+Italy,Milan,348,0.5 miles,City centre,1.9 miles,Milan Romolo Station,Milan Centre,292,price for 1 night,Milan,4,4,1116,Hotel,4.1,0,10360,1,15-50% offer,2017,11,0,0,1,0.5,1.9
+Italy,Milan,53,0.3 miles,City centre,1.8 miles,Milan Romolo Station,Milan Centre,247,price for 1 night,Milan,4,4.5,362,Hotel,4.1,1,10362,1,15-50% offer,2017,11,0,0,1,0.3,1.8
+Italy,Milan,44,0.3 miles,City centre,1.8 miles,Milan Romolo Station,Milan Centre,304,price for 1 night,Milan,4,4.5,391,Hotel,4.5,0,10364,0,0% no offer,2017,11,0,0,1,0.3,1.8
+Italy,Milan,110,0.7 miles,City centre,1.5 miles,Milan Romolo Station,Milan Centre,218,price for 1 night,Milan,4,4.5,333,Hotel,4.5,1,10368,1,15-50% offer,2017,11,0,0,1,0.7,1.5
+Italy,Milan,290,1.0 mile,City centre,1.5 miles,Milan Romolo Station,Milan Centre,139,price for 1 night,Milan,3,4.5,1176,Hotel,4.1,1,10370,1,50%-75% offer,2017,11,0,0,1,1,1.5
+Italy,Milan,1045,1.0 mile,City centre,1.5 miles,Milan Romolo Station,Milan Centre,198,price for 1 night,Milan,4,4,1609,Hotel,4.4,0,10371,1,15-50% offer,2017,11,0,0,1,1,1.5
+Italy,Milan,104,0.4 miles,City centre,2.3 miles,Milan Romolo Station,Milan Centre,336,price for 1 night,Milan,4,4.5,388,Hotel,4.6,0,10372,0,0% no offer,2017,11,0,0,1,0.4,2.3
+Italy,Milan,118,0.5 miles,City centre,2.0 miles,Milan Romolo Station,Milan Centre,260,price for 1 night,Milan,4,4,468,Hotel,3.7,0,10383,1,1-15% offer,2017,11,0,0,1,0.5,2
+Italy,Milan,271,0.3 miles,City centre,1.9 miles,Milan Romolo Station,Milan Centre,229,price for 1 night,Milan,3,4,557,Hotel,4.1,1,10390,1,15-50% offer,2017,11,0,0,1,0.3,1.9
+Italy,Milan,346,1.1 miles,City centre,2.4 miles,Milan Romolo Station,Milan Centre,235,price for 1 night,Milan,4,4.5,367,Hotel,4.5,0,10398,1,75%+ offer,2017,11,0,0,1,1.1,2.4
+Italy,Milan,10,1.3 miles,City centre,1.2 miles,Milan Romolo Station,Milan Centre,121,price for 1 night,Milan,3,3.5,285,Hotel,4,1,10403,1,1-15% offer,2017,11,0,0,1,1.3,1.2
+Italy,Milan,112,1.0 mile,City centre,2.8 miles,Milan Romolo Station,Milan Centre,267,price for 1 night,Milan,4,4,1117,Hotel,4,0,10405,1,1-15% offer,2017,11,0,0,1,1,2.8
+Italy,Milan,210,0.5 miles,City centre,2.4 miles,Milan Romolo Station,Milan Centre,226,price for 1 night,Milan,4,4.5,205,Hotel,4.5,1,10410,1,15-50% offer,2017,11,0,0,1,0.5,2.4
+Italy,Milan,15,2.5 miles,City centre,0.4 miles,Milan Romolo Station,Navigli,81,price for 1 night,Milan,3,3.5,65,Hotel,3.2,0,10436,1,1-15% offer,2017,11,0,0,1,2.5,0.4
+Italy,Milan,267,2.5 miles,City centre,0.7 miles,Milan Romolo Station,Navigli,171,price for 1 night,Milan,4,3.5,756,Hotel,3.7,1,10444,0,0% no offer,2017,11,0,0,1,2.5,0.7
+Italy,Milan,209,3.0 miles,City centre,1.4 miles,Milan Romolo Station,Navigli,114,price for 1 night,Milan,4,3.5,405,Hotel,3.7,0,10447,1,75%+ offer,2017,11,0,0,1,3,1.4
+Italy,Milan,71,2.5 miles,City centre,0.5 miles,Milan Romolo Station,Navigli,90,price for 1 night,Milan,3,3,185,Hotel,3.5,1,10449,0,0% no offer,2017,11,0,0,1,2.5,0.5
+Italy,Milan,106,2.2 miles,City centre,0.3 miles,Milan Romolo Station,Navigli,158,price for 1 night,Milan,4,4,349,Hotel,4,0,10452,1,1-15% offer,2017,11,0,0,1,2.2,0.3
+Italy,Milan,210,1.9 miles,City centre,0.6 miles,Milan Romolo Station,Navigli,260,price for 1 night,Milan,4,4.5,1964,Hotel,4.4,0,10454,1,50%-75% offer,2017,11,0,0,1,1.9,0.6
+Italy,Milan,13,2.6 miles,City centre,0.5 miles,Milan Romolo Station,Navigli,93,price for 1 night,Milan,3,3.5,5,Hotel,4,0,10456,0,0% no offer,2017,11,0,0,1,2.6,0.5
+Italy,Milan,174,3.3 miles,City centre,5.4 miles,Milan Romolo Station,Niguarda,68,price for 1 night,Milan,3,3.5,437,Hotel,3.5,0,10460,1,15-50% offer,2017,11,0,0,1,3.3,5.4
+Italy,Milan,64,3.3 miles,City centre,5.4 miles,Milan Romolo Station,Niguarda,67,price for 1 night,Milan,3,3.5,437,Hotel,4,1,10461,1,1-15% offer,2017,11,0,0,1,3.3,5.4
+Italy,Milan,815,4.0 miles,City centre,6.1 miles,Milan Romolo Station,Northern Milan,113,price for 1 night,Milan,4,4,1291,Hotel,4,0,10493,1,15-50% offer,2017,11,0,0,1,4,6.1
+Italy,Milan,341,0.4 miles,City centre,2.5 miles,Milan Romolo Station,Porta Garibaldi,215,price for 1 night,Milan,4,4,691,Hotel,4.1,0,10516,1,1-15% offer,2017,11,0,0,1,0.4,2.5
+Italy,Milan,95,0.8 miles,City centre,2.9 miles,Milan Romolo Station,Porta Garibaldi,197,price for 1 night,Milan,4,4,98,Hotel,4.3,0,10525,1,15-50% offer,2017,11,0,0,1,0.8,2.9
+Italy,Milan,80,1.7 miles,City centre,3.3 miles,Milan Romolo Station,Porta Garibaldi,61,price for 1 night,Milan,3,3.5,64,Hotel,3.5,1,10526,1,1-15% offer,2017,11,0,0,1,1.7,3.3
+Italy,Milan,217,0.7 miles,City centre,2.9 miles,Milan Romolo Station,Porta Garibaldi,187,price for 1 night,Milan,4,4,1065,Hotel,4.1,0,10537,1,15-50% offer,2017,11,0,0,1,0.7,2.9
+Italy,Milan,273,1.2 miles,City centre,2.9 miles,Milan Romolo Station,Porta Garibaldi,80,price for 1 night,Milan,3,4,444,Hotel,4,1,10538,1,1-15% offer,2017,11,0,0,1,1.2,2.9
+Italy,Milan,187,0.9 miles,City centre,3.0 miles,Milan Romolo Station,Porta Garibaldi,219,price for 1 night,Milan,4,4,977,Hotel,4.3,1,10551,1,15-50% offer,2017,11,0,0,1,0.9,3
+Italy,Milan,45,1.2 miles,City centre,3.2 miles,Milan Romolo Station,Porta Garibaldi,172,price for 1 night,Milan,4,3.5,867,Hotel,4.1,0,10552,1,15-50% offer,2017,11,0,0,1,1.2,3.2
+Italy,Milan,78,0.7 miles,City centre,2.8 miles,Milan Romolo Station,Porta Garibaldi,226,price for 1 night,Milan,4,4.5,489,Hotel,4,0,10558,1,15-50% offer,2017,11,0,0,1,0.7,2.8
+Italy,Milan,123,1.4 miles,City centre,3.5 miles,Milan Romolo Station,Porta Garibaldi,110,price for 1 night,Milan,3,4,154,Hotel,3.9,1,10563,1,15-50% offer,2017,11,0,0,1,1.4,3.5
+Italy,Milan,93,1.4 miles,City centre,0.7 miles,Milan Romolo Station,Porta Genova,76,price for 1 night,Milan,3,2.5,213,Hotel,3.2,0,10570,1,1-15% offer,2017,11,0,0,1,1.4,0.7
+Italy,Milan,105,1.3 miles,City centre,0.9 miles,Milan Romolo Station,Porta Genova,300,price for 1 night,Milan,4,4.5,918,Hotel,4.5,0,10575,1,15-50% offer,2017,11,0,0,1,1.3,0.9
+Italy,Milan,249,1.7 miles,City centre,0.5 miles,Milan Romolo Station,Porta Genova,261,price for 1 night,Milan,4,4,971,Hotel,4.3,0,10582,0,0% no offer,2017,11,0,0,1,1.7,0.5
+Italy,Milan,220,1.1 miles,City centre,1.0 mile,Milan Romolo Station,Porta Genova,151,price for 1 night,Milan,3,4,5,Hotel,3.2,0,10590,0,0% no offer,2017,11,0,0,1,1.1,1
+Italy,Milan,NA,1.5 miles,City centre,0.8 miles,Milan Romolo Station,Porta Genova,202,price for 1 night,Milan,4,NA,NA,Hotel,NA,1,10604,0,0% no offer,2017,11,0,0,1,1.5,0.8
+Italy,Milan,54,1.7 miles,City centre,1.8 miles,Milan Romolo Station,Porta Romana,155,price for 1 night,Milan,3,4.5,550,Hotel,4.4,1,10612,1,15-50% offer,2017,11,0,0,1,1.7,1.8
+Italy,Milan,29,1.8 miles,City centre,2.0 miles,Milan Romolo Station,Porta Romana,104,price for 1 night,Milan,3,1.5,163,Hotel,2.2,1,10625,0,0% no offer,2017,11,0,0,1,1.8,2
+Italy,Milan,72,1.7 miles,City centre,2.0 miles,Milan Romolo Station,Porta Romana,171,price for 1 night,Milan,4,4,514,Hotel,4.3,0,10626,1,15-50% offer,2017,11,0,0,1,1.7,2
+Italy,Milan,55,1.8 miles,City centre,1.8 miles,Milan Romolo Station,Porta Romana,143,price for 1 night,Milan,3,3.5,147,Hotel,3.9,1,10628,0,0% no offer,2017,11,0,0,1,1.8,1.8
+Italy,Milan,62,1.9 miles,City centre,2.4 miles,Milan Romolo Station,Porta Romana,90,price for 1 night,Milan,3,3.5,182,Hotel,3.7,0,10635,1,15-50% offer,2017,11,0,0,1,1.9,2.4
+Italy,Milan,118,1.5 miles,City centre,1.3 miles,Milan Romolo Station,Porta Romana,187,price for 1 night,Milan,4,3.5,247,Hotel,4,1,10638,0,0% no offer,2017,11,0,0,1,1.5,1.3
+Italy,Milan,39,1.5 miles,City centre,1.4 miles,Milan Romolo Station,Porta Romana,124,price for 1 night,Milan,4,2.5,203,Hotel,2.5,0,10640,1,1-15% offer,2017,11,0,0,1,1.5,1.4
+Italy,Milan,298,2.0 miles,City centre,1.9 miles,Milan Romolo Station,Porta Romana,223,price for 1 night,Milan,4,4.5,1878,Hotel,4.3,0,10643,0,0% no offer,2017,11,0,0,1,2,1.9
+Italy,Milan,126,2.0 miles,City centre,2.1 miles,Milan Romolo Station,Porta Romana,157,price for 1 night,Milan,4,4,399,Hotel,4,0,10644,0,0% no offer,2017,11,0,0,1,2,2.1
+Italy,Milan,36,1.6 miles,City centre,1.7 miles,Milan Romolo Station,Porta Romana,84,price for 1 night,Milan,3,3,137,Hotel,3.2,1,10645,1,15-50% offer,2017,11,0,0,1,1.6,1.7
+Italy,Milan,34,2.2 miles,City centre,2.9 miles,Milan Romolo Station,Porta Vittoria,114,price for 1 night,Milan,3,3.5,64,Hotel,3.4,1,10659,1,1-15% offer,2017,11,0,0,1,2.2,2.9
+Italy,Milan,29,1.4 miles,City centre,2.9 miles,Milan Romolo Station,Porta Vittoria,206,price for 1 night,Milan,4,4,81,Hotel,4,1,10662,1,1-15% offer,2017,11,0,0,1,1.4,2.9
+Italy,Milan,16,1.7 miles,City centre,2.5 miles,Milan Romolo Station,Porta Vittoria,97,price for 1 night,Milan,3,3,142,Hotel,3.9,1,10672,1,1-15% offer,2017,11,0,0,1,1.7,2.5
+Italy,Milan,60,1.3 miles,City centre,2.5 miles,Milan Romolo Station,Porta Vittoria,133,price for 1 night,Milan,4,3.5,251,Hotel,3.7,1,10674,1,1-15% offer,2017,11,0,0,1,1.3,2.5
+Italy,Milan,49,2.5 miles,City centre,1.0 mile,Milan Romolo Station,Ripamonti Corvetto,87,price for 1 night,Milan,3,3.5,36,Hotel,3.7,1,10681,1,15-50% offer,2017,11,0,0,1,2.5,1
+Italy,Milan,37,3.0 miles,City centre,1.2 miles,Milan Romolo Station,Ripamonti Corvetto,98,price for 1 night,Milan,3,3,52,Hotel,3.5,1,10689,0,0% no offer,2017,11,0,0,1,3,1.2
+Italy,Milan,83,2.7 miles,City centre,2.1 miles,Milan Romolo Station,Ripamonti Corvetto,135,price for 1 night,Milan,3,2.5,217,Hotel,3.2,1,10695,0,0% no offer,2017,11,0,0,1,2.7,2.1
+Italy,Milan,422,3.2 miles,City centre,3.1 miles,Milan Romolo Station,Ripamonti Corvetto,128,price for 1 night,Milan,4,4,1475,Hotel,4.1,0,10698,0,0% no offer,2017,11,0,0,1,3.2,3.1
+Italy,Milan,37,3.4 miles,City centre,3.3 miles,Milan Romolo Station,Ripamonti Corvetto,75,price for 1 night,Milan,3,3,159,Hotel,3.5,1,10700,1,50%-75% offer,2017,11,0,0,1,3.4,3.3
+Italy,Milan,96,1.6 miles,City centre,2.9 miles,Milan Romolo Station,San Siro,175,price for 1 night,Milan,4,4,662,Hotel,4,1,10715,1,15-50% offer,2017,11,0,0,1,1.6,2.9
+Italy,Milan,73,1.5 miles,City centre,1.7 miles,Milan Romolo Station,San Siro,101,price for 1 night,Milan,3,4.5,238,Hotel,4.1,1,10718,1,50%-75% offer,2017,11,0,0,1,1.5,1.7
+Italy,Milan,99,1.3 miles,City centre,2.9 miles,Milan Romolo Station,San Siro,141,price for 1 night,Milan,4,4,255,Hotel,4.1,1,10720,1,1-15% offer,2017,11,0,0,1,1.3,2.9
+Italy,Milan,133,1.3 miles,City centre,2.8 miles,Milan Romolo Station,San Siro,121,price for 1 night,Milan,4,3.5,712,Hotel,4,0,10721,1,50%-75% offer,2017,11,0,0,1,1.3,2.8
+Italy,Milan,126,2.1 miles,City centre,2.8 miles,Milan Romolo Station,San Siro,75,price for 1 night,Milan,3,4,240,Hotel,4.1,0,10724,1,50%-75% offer,2017,11,0,0,1,2.1,2.8
+Italy,Milan,183,1.0 mile,City centre,2.2 miles,Milan Romolo Station,San Siro,156,price for 1 night,Milan,3,4.5,844,Hotel,4.5,1,10728,1,15-50% offer,2017,11,0,0,1,1,2.2
+Italy,Milan,298,3.1 miles,City centre,3.3 miles,Milan Romolo Station,San Siro,52,price for 1 night,Milan,3,4,457,Hotel,4.1,1,10729,1,1-15% offer,2017,11,0,0,1,3.1,3.3
+Italy,Milan,290,5.3 miles,City centre,4.8 miles,Milan Romolo Station,San Siro,50,price for 1 night,Milan,4,3,1601,Hotel,3.2,0,10731,1,50%-75% offer,2017,11,0,0,1,5.3,4.8
+Italy,Milan,8,1.6 miles,City centre,2.3 miles,Milan Romolo Station,San Siro,111,price for 1 night,Milan,3,3.5,136,Hotel,4.4,1,10733,1,50%-75% offer,2017,11,0,0,1,1.6,2.3
+Italy,Milan,108,1.2 miles,City centre,1.4 miles,Milan Romolo Station,San Siro,134,price for 1 night,Milan,3,4,364,Hotel,4,1,10737,1,50%-75% offer,2017,11,0,0,1,1.2,1.4
+Italy,Milan,11,1.8 miles,City centre,3.3 miles,Milan Romolo Station,San Siro,61,price for 1 night,Milan,3,3,243,Hotel,3.2,1,10738,1,15-50% offer,2017,11,0,0,1,1.8,3.3
+Italy,Milan,102,1.4 miles,City centre,1.6 miles,Milan Romolo Station,San Siro,139,price for 1 night,Milan,4,4,402,Hotel,4,0,10740,1,75%+ offer,2017,11,0,0,1,1.4,1.6
+Italy,Milan,226,1.9 miles,City centre,2.2 miles,Milan Romolo Station,San Siro,84,price for 1 night,Milan,3,4,269,Hotel,3.9,0,10743,1,15-50% offer,2017,11,0,0,1,1.9,2.2
+Italy,Milan,67,1.4 miles,City centre,2.6 miles,Milan Romolo Station,San Siro,92,price for 1 night,Milan,4,3.5,308,Hotel,3.5,0,10746,1,15-50% offer,2017,11,0,0,1,1.4,2.6
+Italy,Milan,152,1.4 miles,City centre,2.9 miles,Milan Romolo Station,San Siro,119,price for 1 night,Milan,4,4,719,Hotel,4.3,0,10747,1,1-15% offer,2017,11,0,0,1,1.4,2.9
+Italy,Milan,65,2.0 miles,City centre,3.3 miles,Milan Romolo Station,San Siro,116,price for 1 night,Milan,4,4,340,Hotel,3.7,0,10750,1,50%-75% offer,2017,11,0,0,1,2,3.3
+Italy,Milan,172,2.1 miles,City centre,3.3 miles,Milan Romolo Station,San Siro,66,price for 1 night,Milan,3,4,571,Hotel,3.7,0,10755,1,15-50% offer,2017,11,0,0,1,2.1,3.3
+Italy,Milan,50,1.3 miles,City centre,2.4 miles,Milan Romolo Station,San Siro,116,price for 1 night,Milan,3,2.5,132,Hotel,3.2,1,10757,0,0% no offer,2017,11,0,0,1,1.3,2.4
+Italy,Milan,115,1.9 miles,City centre,2.7 miles,Milan Romolo Station,San Siro,102,price for 1 night,Milan,4,3.5,370,Hotel,3.9,1,10764,1,75%+ offer,2017,11,0,0,1,1.9,2.7
+Italy,Milan,43,3.0 miles,City centre,4.2 miles,Milan Romolo Station,San Siro,101,price for 1 night,Milan,4,4,1112,Hotel,4.1,0,10766,1,50%-75% offer,2017,11,0,0,1,3,4.2
+Italy,Milan,92,0.8 miles,City centre,2.5 miles,Milan Romolo Station,San Siro,128,price for 1 night,Milan,3,4,97,Hotel,4.3,1,10768,1,1-15% offer,2017,11,0,0,1,0.8,2.5
+Italy,Milan,31,1.8 miles,City centre,3.3 miles,Milan Romolo Station,San Siro,86,price for 1 night,Milan,4,3,82,Hotel,3.2,1,10771,0,0% no offer,2017,11,0,0,1,1.8,3.3
+Italy,Milan,45,1.6 miles,City centre,1.8 miles,Milan Romolo Station,San Siro,103,price for 1 night,Milan,3,3,166,Hotel,3.2,1,10773,0,0% no offer,2017,11,0,0,1,1.6,1.8
+Italy,Milan,232,1.5 miles,City centre,1.8 miles,Milan Romolo Station,San Siro,101,price for 1 night,Milan,3,3.5,415,Hotel,3.7,1,10775,1,15-50% offer,2017,11,0,0,1,1.5,1.8
+Italy,Milan,29,1.5 miles,City centre,1.8 miles,Milan Romolo Station,San Siro,165,price for 1 night,Milan,4,3.5,136,Hotel,4,1,10777,1,1-15% offer,2017,11,0,0,1,1.5,1.8
+Italy,Milan,82,1.5 miles,City centre,2.9 miles,Milan Romolo Station,San Siro,102,price for 1 night,Milan,3,4,123,Hotel,4,1,10784,1,50%-75% offer,2017,11,0,0,1,1.5,2.9
+Italy,Milan,77,1.6 miles,City centre,2.9 miles,Milan Romolo Station,San Siro,95,price for 1 night,Milan,3,4,222,Hotel,3.7,1,10786,1,75%+ offer,2017,11,0,0,1,1.6,2.9
+Italy,Milan,220,1.3 miles,City centre,2.8 miles,Milan Romolo Station,San Siro,107,price for 1 night,Milan,4,4,529,Hotel,4,0,10789,1,15-50% offer,2017,11,0,0,1,1.3,2.8
+Italy,Milan,113,2.1 miles,City centre,2.8 miles,Milan Romolo Station,San Siro,91,price for 1 night,Milan,3,4.5,304,Hotel,4,1,10793,1,1-15% offer,2017,11,0,0,1,2.1,2.8
+Italy,Milan,109,2.1 miles,City centre,2.0 miles,Milan Romolo Station,San Siro,147,price for 1 night,Milan,4,4.5,804,Hotel,4.1,0,10795,0,0% no offer,2017,11,0,0,1,2.1,2
+Italy,Milan,91,1.4 miles,City centre,2.0 miles,Milan Romolo Station,San Siro,186,price for 1 night,Milan,4,4,380,Hotel,4.1,1,10800,1,15-50% offer,2017,11,0,0,1,1.4,2
+Italy,Milan,273,2.9 miles,City centre,4.1 miles,Milan Romolo Station,San Siro,100,price for 1 night,Milan,4,4.5,672,Hotel,4.5,0,10801,1,15-50% offer,2017,11,0,0,1,2.9,4.1
+Italy,Milan,395,2.8 miles,City centre,4.1 miles,Milan Romolo Station,San Siro,147,price for 1 night,Milan,4,4.5,2017,Hotel,4.3,1,10803,1,15-50% offer,2017,11,0,0,1,2.8,4.1
+Italy,Milan,39,1.7 miles,City centre,2.3 miles,Milan Romolo Station,San Siro,113,price for 1 night,Milan,3,4,161,Hotel,4.3,0,10805,1,15-50% offer,2017,11,0,0,1,1.7,2.3
+Italy,Milan,240,2.7 miles,City centre,3.8 miles,Milan Romolo Station,San Siro,83,price for 1 night,Milan,4,4,405,Hotel,4,0,10807,1,15-50% offer,2017,11,0,0,1,2.7,3.8
+Italy,Milan,143,2.1 miles,City centre,3.3 miles,Milan Romolo Station,San Siro,63,price for 1 night,Milan,3,3.5,181,Hotel,3.7,0,10808,1,15-50% offer,2017,11,0,0,1,2.1,3.3
+Italy,Milan,84,2.3 miles,City centre,3.5 miles,Milan Romolo Station,San Siro,104,price for 1 night,Milan,4,4.5,593,Hotel,4.3,0,10809,1,50%-75% offer,2017,11,0,0,1,2.3,3.5
+Italy,Milan,50,2.5 miles,City centre,3.7 miles,Milan Romolo Station,San Siro,98,price for 1 night,Milan,3,3.5,121,Hotel,3.5,1,10810,1,15-50% offer,2017,11,0,0,1,2.5,3.7
+Italy,Milan,129,2.7 miles,City centre,3.8 miles,Milan Romolo Station,San Siro,96,price for 1 night,Milan,4,4.5,870,Hotel,4.3,0,10811,1,15-50% offer,2017,11,0,0,1,2.7,3.8
+Italy,Milan,131,2.0 miles,City centre,2.3 miles,Milan Romolo Station,San Siro,94,price for 1 night,Milan,4,4,503,Hotel,3.9,0,10814,0,0% no offer,2017,11,0,0,1,2,2.3
+Italy,Milan,112,3.8 miles,City centre,5.8 miles,Milan Romolo Station,Viale Monza,81,price for 1 night,Milan,3,4,469,Hotel,3.7,1,10865,1,15-50% offer,2017,11,0,0,1,3.8,5.8
+Italy,Milan,405,3.6 miles,City centre,5.8 miles,Milan Romolo Station,Viale Monza,82,price for 1 night,Milan,4,4,908,Hotel,4.4,0,10870,1,50%-75% offer,2017,11,0,0,1,3.6,5.8
+Italy,Milan,279,2.9 miles,City centre,5.0 miles,Milan Romolo Station,Viale Monza,138,price for 1 night,Milan,4,4,1307,Hotel,4.3,1,10877,1,15-50% offer,2017,11,0,0,1,2.9,5
+Italy,Milan,15,2.7 miles,City centre,4.8 miles,Milan Romolo Station,Viale Monza,73,price for 1 night,Milan,3,3,111,Hotel,3,0,10881,1,15-50% offer,2017,11,0,0,1,2.7,4.8
+Italy,Milan,141,2.7 miles,City centre,4.9 miles,Milan Romolo Station,Viale Monza,91,price for 1 night,Milan,4,4,776,Hotel,4,0,10882,0,0% no offer,2017,11,0,0,1,2.7,4.9
