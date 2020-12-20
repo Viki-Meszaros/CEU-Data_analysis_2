@@ -1,0 +1,132 @@
+---
+title: "Exercise_7.3"
+author: "Viktória Mészáros"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+## Data
+I selected Milan as the city of my analysis. I checked how many observations are in most cities, and I saw that Milan has a bit more compared to Vienna so I felt it will be good for my analysis. I also filtered my data to hotels that has 3 to 4 stars for a November 2017 weekday. This cleaned and filtered data was saved to my [Github](https://github.com/Viki-Meszaros/CEU-Data_analysis_2/blob/main/Extra_tasks/Data/Milan_hotels.csv) repo and it is imported from there in this markdown. You can see the cleaning in the [Clean_hotels_data.R](https://github.com/Viki-Meszaros/CEU-Data_analysis_2/blob/main/Extra_tasks/Codes/Clean_hotels_data.R) file and the filtering in the [Exercise_7_3.R](https://github.com/Viki-Meszaros/CEU-Data_analysis_2/blob/main/Extra_tasks/Codes/Exercise_7_3.R) file.
+```{r setup, include=FALSE}
+library(tidyverse)
+
+hotels <- read_csv("https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_analysis_2/main/Extra_tasks/Data/Milan_hotels.csv")
+```
+
+## Distribution of distance and price
+First I created a histogram to have a look on the distribution of distances. There are some extreme values but they are not far from the other observations, so I decided not to exclude any observations here.
+```{r, message=F, warning=F, echo=F, out.width= "50%"}
+hotels %>%
+  select(distance) %>% 
+  ggplot(aes(distance)) +
+  geom_histogram(fill="deepskyblue4") +
+  theme_classic()+
+  labs(x = "Distance", y = "Number of hotels")
+```
+
+For price I also looked at the histogram. Here we can see that almost all of the hotels are having a price below 400 USD, but there is one observation with a price above 800 USD. As the aim of my analysis was to find a good deal and it is straight forward this hotel is not that I decided to exclude it from my data. I seems to be an influential observation and as it does not support my aim, it is better to get rid of it.
+
+```{r, message=F, warning=F, echo=F, out.width= "50%"}
+hotels %>%
+  select(price) %>% 
+  ggplot(aes(price)) +
+  geom_histogram(fill="deeppink4") +
+  theme_classic()+
+  labs(x = "Price", y = "Number of hotels")
+
+```
+
+## Bin scatter
+This bin scatter shows a non-parametric regression with 4 bins. This first graph shows only four dots for the four bins.
+
+```{r, echo=F, warning=F, message=F, out.width= "50%"}
+hotels <- hotels %>% 
+  filter(price <= 400)
+
+hotels <-hotels %>% mutate(dist4=0.5+ 1*as.numeric(hotels$distance>=1) + 1*as.numeric(hotels$distance>=2) + 2.5*as.numeric(hotels$distance>=3))
+dist4 <- hotels %>% group_by(dist4) %>% dplyr::summarize(Eprice_cat4=mean(price))
+hotels<-left_join(hotels,dist4)
+
+ggplot(data = hotels) +
+  geom_point(aes(x = dist4, y = Eprice_cat4), 
+             size = 4 , color = "deepskyblue4", na.rm=T) +
+  geom_text(aes(x = dist4, y = Eprice_cat4, label = round(Eprice_cat4)), hjust = -0.6, vjust = 0, color = "black", size = 3) +
+  expand_limits(x = 0.01, y = 0.01) +
+  coord_cartesian(xlim = c(0,7), ylim = c(0, 400)) +
+  scale_y_continuous(expand=c(0.01,0.01),limits = c(0, 400), breaks = seq(0, 400, by=50)) +
+  scale_x_continuous(expand=c(0.01,0.01), limits= c(0,7), breaks = c(0, 1, 2, 3,4,5, 6,7)) +
+  labs(x = "Distance to city center (miles)", y = "Price (US dollars)") +
+  theme_classic()
+
+```
+
+This graph if more informative as we can see how the value of the bins fit to the scatterplot of the distribution. From both of the graphs we can conclude that there is a negative pattern of association between distance from the city center and price of the hotels.
+
+```{r, echo=F, warning=F, message=F, out.width= "50%"}
+p1 <- ggplot(data = hotels) +
+  geom_point(aes(x = distance, y = price), color = "deepskyblue4", size = 2,  shape = 16, alpha = 0.5, show.legend=F, na.rm = TRUE) + 
+  expand_limits(x = 0.01, y = 0.01) +
+  scale_x_continuous(expand = c(0.01,0.01), limits=c(0, 7), breaks=seq(0, 7, by=1)) + 
+  scale_y_continuous(expand = c(0.01,0.01),limits = c(0, 400), breaks = seq(0, 400, by = 50)) +
+  labs(x = "Distance to city center (miles)",y = "Price (US dollars)")+
+  theme_classic() 
+
+# Scatterplot with step function (we use 1km bits for simplicity using 4 bits for 3-7km)
+hotels <-hotels %>% mutate(dist4_s = 1*as.numeric(hotels$distance>=1) + 1*as.numeric(hotels$distance>=2) +   1*as.numeric(hotels$distance>=3) +1*as.numeric(hotels$distance>=4) +1*as.numeric(hotels$distance>=5) + 1*as.numeric(hotels$distance>=6))  
+hotels$xend <- c(hotels$dist4_s+1)
+hotels$yend <- c(hotels$Eprice_cat4)
+
+# Non-parametric regression graph with 4 bins
+p1+
+  geom_segment(data=hotels, aes(x = dist4_s, y=yend, xend=xend, yend=yend), color="deeppink", size=0.9, na.rm=TRUE) 
+```
+
+## Lowess regression
+From the lowess regression it becomes even more clear that there is truly a negative pattern between the two variables. It also becomes visible that this pattern is not linear.
+
+```{r, echo=F, warning=F, message=F, out.width= "50%"}
+p1  +
+  geom_smooth(aes(x = distance, y = price), method='loess', color = "deeppink4")
+```
+## Linear regression
+
+```{r, echo=F, warning=F, message=F}
+regression <- lm(price ~ distance, data=hotels)
+summary(regression)
+
+```
+The regression coefficients show that when the hotel is in the city center (distance is 0) the expected price you are going to pay is 187.4 USD. When you go 1 miles further from the center the average hotel price is expected to be 30 USDs lower. This model covers 24.12% of the variation of the price which is fine, but we can clearly see that with adjusting the model for non-linearity we would get much better fit. 
+
+```{r, echo=F, warning=F, message=F, out.width= "50%"}
+p1  +
+  geom_smooth(aes(x = distance, y = price), method = "lm", color = "deeppink4")
+```
+
+
+## Comparing Milan to Vienna
+The number of hotels in out data for Milan was 231 compared to 207 for Vienna. this is good as it is close so we can make good comparisons. In both of the cities we can see a negative trend, as we go further away from the city center, the prices tend to decrease on average. One other interesting thing to note is that in Milan the prices are higher, for example the price in the city center is 40% more (184USD compared 133USD), but as we go further it decreases more rapidly by 30USD for 1 mile on average (14USD for Vienna) according to a simple linear regression for both of the cities. From the data we can draw a final conclusion that there is a negative pattern in association between distance and price both for Milan and Vienna.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
