@@ -17,8 +17,7 @@ library(tidyverse)
 library(ggthemes)
 
 # Import the needed data
-my_path <- "c://Users/admin/Documents/CEU/Fall_semester/Data_analysis_2/Github/CEU-Data_analysis_2/Assignment_2/Data/"
-df <- read.csv(paste0(my_path, "Raw/", "train.csv"), na.strings = c("", "NA"))
+df <- read.csv("https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_analysis_2/main/Assignment_2/Data/Raw/Titanic_raw.csv")
 
 ###########################
 ##   I.  Data cleaning   ##
@@ -127,7 +126,7 @@ ggplot(df) +
  aes(x = "", y = Age, fill = Pclass) +
  geom_boxplot() +
  scale_fill_viridis_c(option = "viridis") +
- ggthemes::theme_calc() +
+ theme_calc() +
  theme(legend.position = "none") +
  facet_grid(vars(), vars(Pclass))
 
@@ -153,7 +152,7 @@ ggplot(df) +
   aes(x = "", y = Age, fill = Sex) +
   geom_boxplot() +
   scale_fill_viridis_d(option = "viridis") +
-  ggthemes::theme_calc() +
+  theme_calc() +
   facet_wrap(vars(Pclass))
 
 df %>% 
@@ -293,35 +292,6 @@ for (i in 1:nrow(df)) {
 
 final <- df[, c("Name", "Survived", "Age", "Fare", "Female", "Travel_alone", "Pclass_1",
                 "Pclass_2", "C", "Q")]
-
-# Save final data frame
-write.csv(final, paste0(my_path, "clean/", "Titanic_clean.csv"))
-saveRDS()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-        
-    
- 
-        
-
-    
-
-
 
 
 
