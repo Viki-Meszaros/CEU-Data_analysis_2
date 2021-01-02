@@ -291,8 +291,9 @@ for (i in 1:nrow(df)) {
 # FINAL DATA FRAME --------------------------------------------------------
 
 final <- df[, c("Name", "Survived", "Age", "Fare", "Female", "Travel_alone", "Pclass_1",
-                "Pclass_2", "C", "Q")]
+                "Pclass_2", "C", "Q", "Pclass", "Embarked")]
 
+write.csv(final, "c://Users/admin/Documents/CEU/Fall_semester/Data_analysis_2/Github/CEU-Data_analysis_2/Assignment_2/Data/Clean/Titanic_clean.csv")
 
 
 
