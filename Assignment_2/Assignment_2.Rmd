@@ -1,0 +1,73 @@
+---
+title: "Predictive analysis on Titanic data"
+author: "Viktoris Meszaros"
+date: 2020-12-30
+output: 
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+my_path <- "c://Users/admin/Documents/CEU/Fall_semester/Data_analysis_2/Github/CEU-Data_analysis_2/Assignment_2/Data/"
+df <- read.csv(paste0(my_path, "train.csv"), na.strings = c("", "NA"))
+
+```
+
+## Abstract
+
+## Data
+I chose a really interesting topic for my analysis. It was the tragedy of the luxury steamship called Titanic. As most of you already know, Titanic was one of the first ocean liners and the largest ship in the world at that time. It was traveling from Southampton to New York when an unexpected accident happened. It bumped into an iceberg and sank in the early hours of April 15, 1912. This was one of the deadliest maritime catastrophes of all time responsible for the death of more than 1500 people (out of the 2224 on board). 
+
+## Aim of the research
+In this project my aim will be to build a predictive model that helps to find out what sort of people were more likely to survive the sinking of the Titanic than others. If there are some factors that increased the probability for someone to survive. 
+
+## Data collection
+The data I used for my research I found on the website [Kaggle.com](https://www.kaggle.com/c/titanic/data?select=test.csv) . It contains 819 observations (and 418 in a test file). This is because this data was uploaded as part of a machine learning competition where it is needed to have a train and than a test set. I could not join these two samples, as for the test data the binary values of if the passenger survived or not were missing, so I would not be able to build a model on that. 
+On the Titanic there were 2435 people when it sunk, out of which 1320 were passengers and the remaining 892 crew members. In our data set we have data about 819 passengers which is more than 60% of the total population. We know that our sample was created in a totally random manner so we can assume that it is representative. 
+It may have some measurement errors but we do not consider them significant. On the other hand there are some missing values for some observation representing 8% of our data. Most of the missing values are in Cabin numbers and Age. 
+
+
+
+
+```{r}
+nas <- NULL
+for (i in 1:ncol(df)) {
+  nas  <- c(nas, sum(is.na(df[ , i])))
+}
+
+num_NAs <- cbind(names(df), nas)
+colnames(num_NAs) <- c("Variable", "Number of NAs")
+
+# knitr::kable(num_NAs)
+```
+
+
+
+## Histograms and summary statistics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,892 @@
+"","Name","Survived","Age","Fare","Female","Travel_alone","Pclass_1","Pclass_2","C","Q"
+"1","Braund, Mr. Owen Harris",0,22,7.25,0,0,0,0,0,0
+"2","Cumings, Mrs. John Bradley (Florence Briggs Thayer)",1,38,71.2833,1,0,1,0,1,0
+"3","Heikkinen, Miss. Laina",1,26,7.925,1,1,0,0,0,0
+"4","Futrelle, Mrs. Jacques Heath (Lily May Peel)",1,35,53.1,1,0,1,0,0,0
+"5","Allen, Mr. William Henry",0,35,8.05,0,1,0,0,0,0
+"6","Moran, Mr. James",0,27,8.4583,0,1,0,0,0,1
+"7","McCarthy, Mr. Timothy J",0,54,51.8625,0,1,1,0,0,0
+"8","Palsson, Master. Gosta Leonard",0,2,21.075,0,0,0,0,0,0
+"9","Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",1,27,11.1333,1,0,0,0,0,0
+"10","Nasser, Mrs. Nicholas (Adele Achem)",1,14,30.0708,1,0,0,1,1,0
+"11","Sandstrom, Miss. Marguerite Rut",1,4,16.7,1,0,0,0,0,0
+"12","Bonnell, Miss. Elizabeth",1,58,26.55,1,1,1,0,0,0
+"13","Saundercock, Mr. William Henry",0,20,8.05,0,1,0,0,0,0
+"14","Andersson, Mr. Anders Johan",0,39,31.275,0,0,0,0,0,0
+"15","Vestrom, Miss. Hulda Amanda Adolfina",0,14,7.8542,1,1,0,0,0,0
+"16","Hewlett, Mrs. (Mary D Kingcome) ",1,55,16,1,1,0,1,0,0
+"17","Rice, Master. Eugene",0,2,29.125,0,0,0,0,0,1
+"18","Williams, Mr. Charles Eugene",1,31,13,0,1,0,1,0,0
+"19","Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",0,31,18,1,0,0,0,0,0
+"20","Masselmani, Mrs. Fatima",1,22,7.225,1,1,0,0,1,0
+"21","Fynney, Mr. Joseph J",0,35,26,0,1,0,1,0,0
+"22","Beesley, Mr. Lawrence",1,34,13,0,1,0,1,0,0
+"23","McGowan, Miss. Anna ""Annie""",1,15,8.0292,1,1,0,0,0,1
+"24","Sloper, Mr. William Thompson",1,28,35.5,0,1,1,0,0,0
+"25","Palsson, Miss. Torborg Danira",0,8,21.075,1,0,0,0,0,0
+"26","Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",1,38,31.3875,1,0,0,0,0,0
+"27","Emir, Mr. Farred Chehab",0,27,7.225,0,1,0,0,1,0
+"28","Fortune, Mr. Charles Alexander",0,19,263,0,0,1,0,0,0
+"29","O'Dwyer, Miss. Ellen ""Nellie""",1,22,7.8792,1,1,0,0,0,1
+"30","Todoroff, Mr. Lalio",0,27,7.8958,0,1,0,0,0,0
+"31","Uruchurtu, Don. Manuel E",0,40,27.7208,0,1,1,0,1,0
+"32","Spencer, Mrs. William Augustus (Marie Eugenie)",1,35,146.5208,1,0,1,0,1,0
+"33","Glynn, Miss. Mary Agatha",1,22,7.75,1,1,0,0,0,1
+"34","Wheadon, Mr. Edward H",0,66,10.5,0,1,0,1,0,0
+"35","Meyer, Mr. Edgar Joseph",0,28,82.1708,0,0,1,0,1,0
+"36","Holverson, Mr. Alexander Oskar",0,42,52,0,0,1,0,0,0
+"37","Mamee, Mr. Hanna",1,27,7.2292,0,1,0,0,1,0
+"38","Cann, Mr. Ernest Charles",0,21,8.05,0,1,0,0,0,0
+"39","Vander Planke, Miss. Augusta Maria",0,18,18,1,0,0,0,0,0
+"40","Nicola-Yarred, Miss. Jamila",1,14,11.2417,1,0,0,0,1,0
+"41","Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",0,40,9.475,1,0,0,0,0,0
+"42","Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",0,27,21,1,0,0,1,0,0
+"43","Kraeff, Mr. Theodor",0,27,7.8958,0,1,0,0,1,0
+"44","Laroche, Miss. Simonne Marie Anne Andree",1,3,41.5792,1,0,0,1,1,0
+"45","Devaney, Miss. Margaret Delia",1,19,7.8792,1,1,0,0,0,1
+"46","Rogers, Mr. William John",0,27,8.05,0,1,0,0,0,0
+"47","Lennon, Mr. Denis",0,27,15.5,0,0,0,0,0,1
+"48","O'Driscoll, Miss. Bridget",1,22,7.75,1,1,0,0,0,1
+"49","Samaan, Mr. Youssef",0,27,21.6792,0,0,0,0,1,0
+"50","Arnold-Franchi, Mrs. Josef (Josefine Franchi)",0,18,17.8,1,0,0,0,0,0
+"51","Panula, Master. Juha Niilo",0,7,39.6875,0,0,0,0,0,0
+"52","Nosworthy, Mr. Richard Cater",0,21,7.8,0,1,0,0,0,0
+"53","Harper, Mrs. Henry Sleeper (Myna Haxtun)",1,49,76.7292,1,0,1,0,1,0
+"54","Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",1,29,26,1,0,0,1,0,0
+"55","Ostby, Mr. Engelhart Cornelius",0,65,61.9792,0,0,1,0,1,0
+"56","Woolner, Mr. Hugh",1,41,35.5,0,1,1,0,0,0
+"57","Rugg, Miss. Emily",1,21,10.5,1,1,0,1,0,0
+"58","Novel, Mr. Mansouer",0,28.5,7.2292,0,1,0,0,1,0
+"59","West, Miss. Constance Mirium",1,5,27.75,1,0,0,1,0,0
+"60","Goodwin, Master. William Frederick",0,11,46.9,0,0,0,0,0,0
+"61","Sirayanian, Mr. Orsen",0,22,7.2292,0,1,0,0,1,0
+"62","Icard, Miss. Amelie",1,38,80,1,1,1,0,0,0
+"63","Harris, Mr. Henry Birkhardt",0,45,83.475,0,0,1,0,0,0
+"64","Skoog, Master. Harald",0,4,27.9,0,0,0,0,0,0
+"65","Stewart, Mr. Albert A",0,41,27.7208,0,1,1,0,1,0
+"66","Moubarek, Master. Gerios",1,27,15.2458,0,0,0,0,1,0
+"67","Nye, Mrs. (Elizabeth Ramell)",1,29,10.5,1,1,0,1,0,0
+"68","Crease, Mr. Ernest James",0,19,8.1583,0,1,0,0,0,0
+"69","Andersson, Miss. Erna Alexandra",1,17,7.925,1,0,0,0,0,0
+"70","Kink, Mr. Vincenz",0,26,8.6625,0,0,0,0,0,0
+"71","Jenkin, Mr. Stephen Curnow",0,32,10.5,0,1,0,1,0,0
+"72","Goodwin, Miss. Lillian Amy",0,16,46.9,1,0,0,0,0,0
+"73","Hood, Mr. Ambrose Jr",0,21,73.5,0,1,0,1,0,0
+"74","Chronopoulos, Mr. Apostolos",0,26,14.4542,0,0,0,0,1,0
+"75","Bing, Mr. Lee",1,32,56.4958,0,1,0,0,0,0
+"76","Moen, Mr. Sigurd Hansen",0,25,7.65,0,1,0,0,0,0
+"77","Staneff, Mr. Ivan",0,27,7.8958,0,1,0,0,0,0
+"78","Moutal, Mr. Rahamin Haim",0,27,8.05,0,1,0,0,0,0
+"79","Caldwell, Master. Alden Gates",1,0.83,29,0,0,0,1,0,0
+"80","Dowdell, Miss. Elizabeth",1,30,12.475,1,1,0,0,0,0
+"81","Waelens, Mr. Achille",0,22,9,0,1,0,0,0,0
+"82","Sheerlinck, Mr. Jan Baptist",1,29,9.5,0,1,0,0,0,0
+"83","McDermott, Miss. Brigdet Delia",1,22,7.7875,1,1,0,0,0,1
+"84","Carrau, Mr. Francisco M",0,28,47.1,0,1,1,0,0,0
+"85","Ilett, Miss. Bertha",1,17,10.5,1,1,0,1,0,0
+"86","Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",1,33,15.85,1,0,0,0,0,0
+"87","Ford, Mr. William Neal",0,16,34.375,0,0,0,0,0,0
+"88","Slocovski, Mr. Selman Francis",0,27,8.05,0,1,0,0,0,0
+"89","Fortune, Miss. Mabel Helen",1,23,263,1,0,1,0,0,0
+"90","Celotti, Mr. Francesco",0,24,8.05,0,1,0,0,0,0
+"91","Christmann, Mr. Emil",0,29,8.05,0,1,0,0,0,0
+"92","Andreasson, Mr. Paul Edvin",0,20,7.8542,0,1,0,0,0,0
+"93","Chaffee, Mr. Herbert Fuller",0,46,61.175,0,0,1,0,0,0
+"94","Dean, Mr. Bertram Frank",0,26,20.575,0,0,0,0,0,0
+"95","Coxon, Mr. Daniel",0,59,7.25,0,1,0,0,0,0
+"96","Shorney, Mr. Charles Joseph",0,27,8.05,0,1,0,0,0,0
+"97","Goldschmidt, Mr. George B",0,71,34.6542,0,1,1,0,1,0
+"98","Greenfield, Mr. William Bertram",1,23,63.3583,0,0,1,0,1,0
+"99","Doling, Mrs. John T (Ada Julia Bone)",1,34,23,1,0,0,1,0,0
+"100","Kantor, Mr. Sinai",0,34,26,0,0,0,1,0,0
+"101","Petranec, Miss. Matilda",0,28,7.8958,1,1,0,0,0,0
+"102","Petroff, Mr. Pastcho (""Pentcho"")",0,27,7.8958,0,1,0,0,0,0
+"103","White, Mr. Richard Frasar",0,21,77.2875,0,0,1,0,0,0
+"104","Johansson, Mr. Gustaf Joel",0,33,8.6542,0,1,0,0,0,0
+"105","Gustafsson, Mr. Anders Vilhelm",0,37,7.925,0,0,0,0,0,0
+"106","Mionoff, Mr. Stoytcho",0,28,7.8958,0,1,0,0,0,0
+"107","Salkjelsvik, Miss. Anna Kristine",1,21,7.65,1,1,0,0,0,0
+"108","Moss, Mr. Albert Johan",1,27,7.775,0,1,0,0,0,0
+"109","Rekic, Mr. Tido",0,38,7.8958,0,1,0,0,0,0
+"110","Moran, Miss. Bertha",1,22,24.15,1,0,0,0,0,1
+"111","Porter, Mr. Walter Chamberlain",0,47,52,0,1,1,0,0,0
+"112","Zabour, Miss. Hileni",0,14.5,14.4542,1,0,0,0,1,0
+"113","Barton, Mr. David John",0,22,8.05,0,1,0,0,0,0
+"114","Jussila, Miss. Katriina",0,20,9.825,1,0,0,0,0,0
+"115","Attalah, Miss. Malake",0,17,14.4583,1,1,0,0,1,0
+"116","Pekoniemi, Mr. Edvard",0,21,7.925,0,1,0,0,0,0
+"117","Connors, Mr. Patrick",0,70.5,7.75,0,1,0,0,0,1
+"118","Turpin, Mr. William John Robert",0,29,21,0,0,0,1,0,0
+"119","Baxter, Mr. Quigg Edmond",0,24,247.5208,0,0,1,0,1,0
+"120","Andersson, Miss. Ellis Anna Maria",0,2,31.275,1,0,0,0,0,0
+"121","Hickman, Mr. Stanley George",0,21,73.5,0,0,0,1,0,0
+"122","Moore, Mr. Leonard Charles",0,27,8.05,0,1,0,0,0,0
+"123","Nasser, Mr. Nicholas",0,32.5,30.0708,0,0,0,1,1,0
+"124","Webber, Miss. Susan",1,32.5,13,1,1,0,1,0,0
+"125","White, Mr. Percival Wayland",0,54,77.2875,0,0,1,0,0,0
+"126","Nicola-Yarred, Master. Elias",1,12,11.2417,0,0,0,0,1,0
+"127","McMahon, Mr. Martin",0,27,7.75,0,1,0,0,0,1
+"128","Madsen, Mr. Fridtjof Arne",1,24,7.1417,0,1,0,0,0,0
+"129","Peter, Miss. Anna",1,22,22.3583,1,0,0,0,1,0
+"130","Ekstrom, Mr. Johan",0,45,6.975,0,1,0,0,0,0
+"131","Drazenoic, Mr. Jozef",0,33,7.8958,0,1,0,0,1,0
+"132","Coelho, Mr. Domingos Fernandeo",0,20,7.05,0,1,0,0,0,0
+"133","Robins, Mrs. Alexander A (Grace Charity Laury)",0,47,14.5,1,0,0,0,0,0
+"134","Weisz, Mrs. Leopold (Mathilde Francoise Pede)",1,29,26,1,0,0,1,0,0
+"135","Sobey, Mr. Samuel James Hayden",0,25,13,0,1,0,1,0,0
+"136","Richard, Mr. Emile",0,23,15.0458,0,1,0,1,1,0
+"137","Newsom, Miss. Helen Monypeny",1,19,26.2833,1,0,1,0,0,0
+"138","Futrelle, Mr. Jacques Heath",0,37,53.1,0,0,1,0,0,0
+"139","Osen, Mr. Olaf Elon",0,16,9.2167,0,1,0,0,0,0
+"140","Giglio, Mr. Victor",0,24,79.2,0,1,1,0,1,0
+"141","Boulos, Mrs. Joseph (Sultana)",0,22,15.2458,1,0,0,0,1,0
+"142","Nysten, Miss. Anna Sofia",1,22,7.75,1,1,0,0,0,0
+"143","Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",1,24,15.85,1,0,0,0,0,0
+"144","Burke, Mr. Jeremiah",0,19,6.75,0,1,0,0,0,1
+"145","Andrew, Mr. Edgardo Samuel",0,18,11.5,0,1,0,1,0,0
+"146","Nicholls, Mr. Joseph Charles",0,19,36.75,0,0,0,1,0,0
+"147","Andersson, Mr. August Edvard (""Wennerstrom"")",1,27,7.7958,0,1,0,0,0,0
+"148","Ford, Miss. Robina Maggie ""Ruby""",0,9,34.375,1,0,0,0,0,0
+"149","Navratil, Mr. Michel (""Louis M Hoffman"")",0,36.5,26,0,0,0,1,0,0
+"150","Byles, Rev. Thomas Roussel Davids",0,42,13,0,1,0,1,0,0
+"151","Bateman, Rev. Robert James",0,51,12.525,0,1,0,1,0,0
+"152","Pears, Mrs. Thomas (Edith Wearne)",1,22,66.6,1,0,1,0,0,0
+"153","Meo, Mr. Alfonzo",0,55.5,8.05,0,1,0,0,0,0
+"154","van Billiard, Mr. Austin Blyler",0,40.5,14.5,0,0,0,0,0,0
+"155","Olsen, Mr. Ole Martin",0,27,7.3125,0,1,0,0,0,0
+"156","Williams, Mr. Charles Duane",0,51,61.3792,0,0,1,0,1,0
+"157","Gilnagh, Miss. Katherine ""Katie""",1,16,7.7333,1,1,0,0,0,1
+"158","Corn, Mr. Harry",0,30,8.05,0,1,0,0,0,0
+"159","Smiljanic, Mr. Mile",0,27,8.6625,0,1,0,0,0,0
+"160","Sage, Master. Thomas Henry",0,27,69.55,0,0,0,0,0,0
+"161","Cribb, Mr. John Hatfield",0,44,16.1,0,0,0,0,0,0
+"162","Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",1,40,15.75,1,1,0,1,0,0
+"163","Bengtsson, Mr. John Viktor",0,26,7.775,0,1,0,0,0,0
+"164","Calic, Mr. Jovo",0,17,8.6625,0,1,0,0,0,0
+"165","Panula, Master. Eino Viljami",0,1,39.6875,0,0,0,0,0,0
+"166","Goldsmith, Master. Frank John William ""Frankie""",1,9,20.525,0,0,0,0,0,0
+"167","Chibnall, Mrs. (Edith Martha Bowerman)",1,35,55,1,0,1,0,0,0
+"168","Skoog, Mrs. William (Anna Bernhardina Karlsson)",0,45,27.9,1,0,0,0,0,0
+"169","Baumann, Mr. John D",0,41,25.925,0,1,1,0,0,0
+"170","Ling, Mr. Lee",0,28,56.4958,0,1,0,0,0,0
+"171","Van der hoef, Mr. Wyckoff",0,61,33.5,0,1,1,0,0,0
+"172","Rice, Master. Arthur",0,4,29.125,0,0,0,0,0,1
+"173","Johnson, Miss. Eleanor Ileen",1,1,11.1333,1,0,0,0,0,0
+"174","Sivola, Mr. Antti Wilhelm",0,21,7.925,0,1,0,0,0,0
+"175","Smith, Mr. James Clinch",0,56,30.6958,0,1,1,0,1,0
+"176","Klasen, Mr. Klas Albin",0,18,7.8542,0,0,0,0,0,0
+"177","Lefebre, Master. Henry Forbes",0,27,25.4667,0,0,0,0,0,0
+"178","Isham, Miss. Ann Elizabeth",0,50,28.7125,1,1,1,0,1,0
+"179","Hale, Mr. Reginald",0,30,13,0,1,0,1,0,0
+"180","Leonard, Mr. Lionel",0,36,0,0,1,0,0,0,0
+"181","Sage, Miss. Constance Gladys",0,22,69.55,1,0,0,0,0,0
+"182","Pernot, Mr. Rene",0,31,15.05,0,1,0,1,1,0
+"183","Asplund, Master. Clarence Gustaf Hugo",0,9,31.3875,0,0,0,0,0,0
+"184","Becker, Master. Richard F",1,1,39,0,0,0,1,0,0
+"185","Kink-Heilmann, Miss. Luise Gretchen",1,4,22.025,1,0,0,0,0,0
+"186","Rood, Mr. Hugh Roscoe",0,41,50,0,1,1,0,0,0
+"187","O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",1,22,15.5,1,0,0,0,0,1
+"188","Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",1,45,26.55,0,1,1,0,0,0
+"189","Bourke, Mr. John",0,40,15.5,0,0,0,0,0,1
+"190","Turcin, Mr. Stjepan",0,36,7.8958,0,1,0,0,0,0
+"191","Pinsky, Mrs. (Rosa)",1,32,13,1,1,0,1,0,0
+"192","Carbines, Mr. William",0,19,13,0,1,0,1,0,0
+"193","Andersen-Jensen, Miss. Carla Christine Nielsine",1,19,7.8542,1,0,0,0,0,0
+"194","Navratil, Master. Michel M",1,3,26,0,0,0,1,0,0
+"195","Brown, Mrs. James Joseph (Margaret Tobin)",1,44,27.7208,1,1,1,0,1,0
+"196","Lurette, Miss. Elise",1,58,146.5208,1,1,1,0,1,0
+"197","Mernagh, Mr. Robert",0,27,7.75,0,1,0,0,0,1
+"198","Olsen, Mr. Karl Siegwart Andreas",0,42,8.4042,0,0,0,0,0,0
+"199","Madigan, Miss. Margaret ""Maggie""",1,22,7.75,1,1,0,0,0,1
+"200","Yrois, Miss. Henriette (""Mrs Harbeck"")",0,24,13,1,1,0,1,0,0
+"201","Vande Walle, Mr. Nestor Cyriel",0,28,9.5,0,1,0,0,0,0
+"202","Sage, Mr. Frederick",0,27,69.55,0,0,0,0,0,0
+"203","Johanson, Mr. Jakob Alfred",0,34,6.4958,0,1,0,0,0,0
+"204","Youseff, Mr. Gerious",0,45.5,7.225,0,1,0,0,1,0
+"205","Cohen, Mr. Gurshon ""Gus""",1,18,8.05,0,1,0,0,0,0
+"206","Strom, Miss. Telma Matilda",0,2,10.4625,1,0,0,0,0,0
+"207","Backstrom, Mr. Karl Alfred",0,32,15.85,0,0,0,0,0,0
+"208","Albimona, Mr. Nassef Cassem",1,26,18.7875,0,1,0,0,1,0
+"209","Carr, Miss. Helen ""Ellen""",1,16,7.75,1,1,0,0,0,1
+"210","Blank, Mr. Henry",1,40,31,0,1,1,0,1,0
+"211","Ali, Mr. Ahmed",0,24,7.05,0,1,0,0,0,0
+"212","Cameron, Miss. Clear Annie",1,35,21,1,1,0,1,0,0
+"213","Perkin, Mr. John Henry",0,22,7.25,0,1,0,0,0,0
+"214","Givard, Mr. Hans Kristensen",0,30,13,0,1,0,1,0,0
+"215","Kiernan, Mr. Philip",0,27,7.75,0,0,0,0,0,1
+"216","Newell, Miss. Madeleine",1,31,113.275,1,0,1,0,1,0
+"217","Honkanen, Miss. Eliina",1,27,7.925,1,1,0,0,0,0
+"218","Jacobsohn, Mr. Sidney Samuel",0,42,27,0,0,0,1,0,0
+"219","Bazzani, Miss. Albina",1,32,76.2917,1,1,1,0,1,0
+"220","Harris, Mr. Walter",0,30,10.5,0,1,0,1,0,0
+"221","Sunderland, Mr. Victor Francis",1,16,8.05,0,1,0,0,0,0
+"222","Bracken, Mr. James H",0,27,13,0,1,0,1,0,0
+"223","Green, Mr. George Henry",0,51,8.05,0,1,0,0,0,0
+"224","Nenkoff, Mr. Christo",0,27,7.8958,0,1,0,0,0,0
+"225","Hoyt, Mr. Frederick Maxfield",1,38,90,0,0,1,0,0,0
+"226","Berglund, Mr. Karl Ivar Sven",0,22,9.35,0,1,0,0,0,0
+"227","Mellors, Mr. William John",1,19,10.5,0,1,0,1,0,0
+"228","Lovell, Mr. John Hall (""Henry"")",0,20.5,7.25,0,1,0,0,0,0
+"229","Fahlstrom, Mr. Arne Jonas",0,18,13,0,1,0,1,0,0
+"230","Lefebre, Miss. Mathilde",0,22,25.4667,1,0,0,0,0,0
+"231","Harris, Mrs. Henry Birkhardt (Irene Wallach)",1,35,83.475,1,0,1,0,0,0
+"232","Larsson, Mr. Bengt Edvin",0,29,7.775,0,1,0,0,0,0
+"233","Sjostedt, Mr. Ernst Adolf",0,59,13.5,0,1,0,1,0,0
+"234","Asplund, Miss. Lillian Gertrud",1,5,31.3875,1,0,0,0,0,0
+"235","Leyson, Mr. Robert William Norman",0,24,10.5,0,1,0,1,0,0
+"236","Harknett, Miss. Alice Phoebe",0,22,7.55,1,1,0,0,0,0
+"237","Hold, Mr. Stephen",0,44,26,0,0,0,1,0,0
+"238","Collyer, Miss. Marjorie ""Lottie""",1,8,26.25,1,0,0,1,0,0
+"239","Pengelly, Mr. Frederick William",0,19,10.5,0,1,0,1,0,0
+"240","Hunt, Mr. George Henry",0,33,12.275,0,1,0,1,0,0
+"241","Zabour, Miss. Thamine",0,22,14.4542,1,0,0,0,1,0
+"242","Murphy, Miss. Katherine ""Kate""",1,22,15.5,1,0,0,0,0,1
+"243","Coleridge, Mr. Reginald Charles",0,29,10.5,0,1,0,1,0,0
+"244","Maenpaa, Mr. Matti Alexanteri",0,22,7.125,0,1,0,0,0,0
+"245","Attalah, Mr. Sleiman",0,30,7.225,0,1,0,0,1,0
+"246","Minahan, Dr. William Edward",0,44,90,0,0,1,0,0,1
+"247","Lindahl, Miss. Agda Thorilda Viktoria",0,25,7.775,1,1,0,0,0,0
+"248","Hamalainen, Mrs. William (Anna)",1,24,14.5,1,0,0,1,0,0
+"249","Beckwith, Mr. Richard Leonard",1,37,52.5542,0,0,1,0,0,0
+"250","Carter, Rev. Ernest Courtenay",0,54,26,0,0,0,1,0,0
+"251","Reed, Mr. James George",0,27,7.25,0,1,0,0,0,0
+"252","Strom, Mrs. Wilhelm (Elna Matilda Persson)",0,29,10.4625,1,0,0,0,0,0
+"253","Stead, Mr. William Thomas",0,62,26.55,0,1,1,0,0,0
+"254","Lobb, Mr. William Arthur",0,30,16.1,0,0,0,0,0,0
+"255","Rosblom, Mrs. Viktor (Helena Wilhelmina)",0,41,20.2125,1,0,0,0,0,0
+"256","Touma, Mrs. Darwis (Hanne Youssef Razi)",1,29,15.2458,1,0,0,0,1,0
+"257","Thorne, Mrs. Gertrude Maybelle",1,35,79.2,1,1,1,0,1,0
+"258","Cherry, Miss. Gladys",1,30,86.5,1,1,1,0,0,0
+"259","Ward, Miss. Anna",1,35,512.3292,1,1,1,0,1,0
+"260","Parrish, Mrs. (Lutie Davis)",1,50,26,1,0,0,1,0,0
+"261","Smith, Mr. Thomas",0,27,7.75,0,1,0,0,0,1
+"262","Asplund, Master. Edvin Rojj Felix",1,3,31.3875,0,0,0,0,0,0
+"263","Taussig, Mr. Emil",0,52,79.65,0,0,1,0,0,0
+"264","Harrison, Mr. William",0,40,0,0,1,1,0,0,0
+"265","Henry, Miss. Delia",0,22,7.75,1,1,0,0,0,1
+"266","Reeves, Mr. David",0,36,10.5,0,1,0,1,0,0
+"267","Panula, Mr. Ernesti Arvid",0,16,39.6875,0,0,0,0,0,0
+"268","Persson, Mr. Ernst Ulrik",1,25,7.775,0,0,0,0,0,0
+"269","Graham, Mrs. William Thompson (Edith Junkins)",1,58,153.4625,1,0,1,0,0,0
+"270","Bissette, Miss. Amelia",1,35,135.6333,1,1,1,0,0,0
+"271","Cairns, Mr. Alexander",0,41,31,0,1,1,0,0,0
+"272","Tornquist, Mr. William Henry",1,25,0,0,1,0,0,0,0
+"273","Mellinger, Mrs. (Elizabeth Anne Maidment)",1,41,19.5,1,0,0,1,0,0
+"274","Natsch, Mr. Charles H",0,37,29.7,0,0,1,0,1,0
+"275","Healy, Miss. Hanora ""Nora""",1,22,7.75,1,1,0,0,0,1
+"276","Andrews, Miss. Kornelia Theodosia",1,63,77.9583,1,0,1,0,0,0
+"277","Lindblom, Miss. Augusta Charlotta",0,45,7.75,1,1,0,0,0,0
+"278","Parkes, Mr. Francis ""Frank""",0,31,0,0,1,0,1,0,0
+"279","Rice, Master. Eric",0,7,29.125,0,0,0,0,0,1
+"280","Abbott, Mrs. Stanton (Rosa Hunt)",1,35,20.25,1,0,0,0,0,0
+"281","Duane, Mr. Frank",0,65,7.75,0,1,0,0,0,1
+"282","Olsson, Mr. Nils Johan Goransson",0,28,7.8542,0,1,0,0,0,0
+"283","de Pelsmaeker, Mr. Alfons",0,16,9.5,0,1,0,0,0,0
+"284","Dorking, Mr. Edward Arthur",1,19,8.05,0,1,0,0,0,0
+"285","Smith, Mr. Richard William",0,41,26,0,1,1,0,0,0
+"286","Stankovic, Mr. Ivan",0,33,8.6625,0,1,0,0,1,0
+"287","de Mulder, Mr. Theodore",1,30,9.5,0,1,0,0,0,0
+"288","Naidenoff, Mr. Penko",0,22,7.8958,0,1,0,0,0,0
+"289","Hosono, Mr. Masabumi",1,42,13,0,1,0,1,0,0
+"290","Connolly, Miss. Kate",1,22,7.75,1,1,0,0,0,1
+"291","Barber, Miss. Ellen ""Nellie""",1,26,78.85,1,1,1,0,0,0
+"292","Bishop, Mrs. Dickinson H (Helen Walton)",1,19,91.0792,1,0,1,0,1,0
+"293","Levy, Mr. Rene Jacques",0,36,12.875,0,1,0,1,1,0
+"294","Haas, Miss. Aloisia",0,24,8.85,1,1,0,0,0,0
+"295","Mineff, Mr. Ivan",0,24,7.8958,0,1,0,0,0,0
+"296","Lewy, Mr. Ervin G",0,41,27.7208,0,1,1,0,1,0
+"297","Hanna, Mr. Mansour",0,23.5,7.2292,0,1,0,0,1,0
+"298","Allison, Miss. Helen Loraine",0,2,151.55,1,0,1,0,0,0
+"299","Saalfeld, Mr. Adolphe",1,41,30.5,0,1,1,0,0,0
+"300","Baxter, Mrs. James (Helene DeLaudeniere Chaput)",1,50,247.5208,1,0,1,0,1,0
+"301","Kelly, Miss. Anna Katherine ""Annie Kate""",1,22,7.75,1,1,0,0,0,1
+"302","McCoy, Mr. Bernard",1,27,23.25,0,0,0,0,0,1
+"303","Johnson, Mr. William Cahoone Jr",0,19,0,0,1,0,0,0,0
+"304","Keane, Miss. Nora A",1,28,12.35,1,1,0,1,0,1
+"305","Williams, Mr. Howard Hugh ""Harry""",0,27,8.05,0,1,0,0,0,0
+"306","Allison, Master. Hudson Trevor",1,0.92,151.55,0,0,1,0,0,0
+"307","Fleming, Miss. Margaret",1,35,110.8833,1,1,1,0,1,0
+"308","Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",1,17,108.9,1,0,1,0,1,0
+"309","Abelson, Mr. Samuel",0,30,24,0,0,0,1,1,0
+"310","Francatelli, Miss. Laura Mabel",1,30,56.9292,1,1,1,0,1,0
+"311","Hays, Miss. Margaret Bechstein",1,24,83.1583,1,1,1,0,1,0
+"312","Ryerson, Miss. Emily Borie",1,18,262.375,1,0,1,0,1,0
+"313","Lahtinen, Mrs. William (Anna Sylfven)",0,26,26,1,0,0,1,0,0
+"314","Hendekovic, Mr. Ignjac",0,28,7.8958,0,1,0,0,0,0
+"315","Hart, Mr. Benjamin",0,43,26.25,0,0,0,1,0,0
+"316","Nilsson, Miss. Helmina Josefina",1,26,7.8542,1,1,0,0,0,0
+"317","Kantor, Mrs. Sinai (Miriam Sternin)",1,24,26,1,0,0,1,0,0
+"318","Moraweck, Dr. Ernest",0,54,14,0,1,0,1,0,0
+"319","Wick, Miss. Mary Natalie",1,31,164.8667,1,0,1,0,0,0
+"320","Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",1,40,134.5,1,0,1,0,1,0
+"321","Dennis, Mr. Samuel",0,22,7.25,0,1,0,0,0,0
+"322","Danoff, Mr. Yoto",0,27,7.8958,0,1,0,0,0,0
+"323","Slayter, Miss. Hilda Mary",1,30,12.35,1,1,0,1,0,1
+"324","Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",1,22,29,1,0,0,1,0,0
+"325","Sage, Mr. George John Jr",0,27,69.55,0,0,0,0,0,0
+"326","Young, Miss. Marie Grice",1,36,135.6333,1,1,1,0,1,0
+"327","Nysveen, Mr. Johan Hansen",0,61,6.2375,0,1,0,0,0,0
+"328","Ball, Mrs. (Ada E Hall)",1,36,13,1,1,0,1,0,0
+"329","Goldsmith, Mrs. Frank John (Emily Alice Brown)",1,31,20.525,1,0,0,0,0,0
+"330","Hippach, Miss. Jean Gertrude",1,16,57.9792,1,0,1,0,1,0
+"331","McCoy, Miss. Agnes",1,22,23.25,1,0,0,0,0,1
+"332","Partner, Mr. Austen",0,45.5,28.5,0,1,1,0,0,0
+"333","Graham, Mr. George Edward",0,38,153.4625,0,0,1,0,0,0
+"334","Vander Planke, Mr. Leo Edmondus",0,16,18,0,0,0,0,0,0
+"335","Frauenthal, Mrs. Henry William (Clara Heinsheimer)",1,35,133.65,1,0,1,0,0,0
+"336","Denkoff, Mr. Mitto",0,27,7.8958,0,1,0,0,0,0
+"337","Pears, Mr. Thomas Clinton",0,29,66.6,0,0,1,0,0,0
+"338","Burns, Miss. Elizabeth Margaret",1,41,134.5,1,1,1,0,1,0
+"339","Dahl, Mr. Karl Edwart",1,45,8.05,0,1,0,0,0,0
+"340","Blackwell, Mr. Stephen Weart",0,45,35.5,0,1,1,0,0,0
+"341","Navratil, Master. Edmond Roger",1,2,26,0,0,0,1,0,0
+"342","Fortune, Miss. Alice Elizabeth",1,24,263,1,0,1,0,0,0
+"343","Collander, Mr. Erik Gustaf",0,28,13,0,1,0,1,0,0
+"344","Sedgwick, Mr. Charles Frederick Waddington",0,25,13,0,1,0,1,0,0
+"345","Fox, Mr. Stanley Hubert",0,36,13,0,1,0,1,0,0
+"346","Brown, Miss. Amelia ""Mildred""",1,24,13,1,1,0,1,0,0
+"347","Smith, Miss. Marion Elsie",1,40,13,1,1,0,1,0,0
+"348","Davison, Mrs. Thomas Henry (Mary E Finck)",1,22,16.1,1,0,0,0,0,0
+"349","Coutts, Master. William Loch ""William""",1,3,15.9,0,0,0,0,0,0
+"350","Dimic, Mr. Jovan",0,42,8.6625,0,1,0,0,0,0
+"351","Odahl, Mr. Nils Martin",0,23,9.225,0,1,0,0,0,0
+"352","Williams-Lambert, Mr. Fletcher Fellows",0,41,35,0,1,1,0,0,0
+"353","Elias, Mr. Tannous",0,15,7.2292,0,0,0,0,1,0
+"354","Arnold-Franchi, Mr. Josef",0,25,17.8,0,0,0,0,0,0
+"355","Yousif, Mr. Wazli",0,27,7.225,0,1,0,0,1,0
+"356","Vanden Steen, Mr. Leo Peter",0,28,9.5,0,1,0,0,0,0
+"357","Bowerman, Miss. Elsie Edith",1,22,55,1,0,1,0,0,0
+"358","Funk, Miss. Annie Clemmer",0,38,13,1,1,0,1,0,0
+"359","McGovern, Miss. Mary",1,22,7.8792,1,1,0,0,0,1
+"360","Mockler, Miss. Helen Mary ""Ellie""",1,22,7.8792,1,1,0,0,0,1
+"361","Skoog, Mr. Wilhelm",0,40,27.9,0,0,0,0,0,0
+"362","del Carlo, Mr. Sebastiano",0,29,27.7208,0,0,0,1,1,0
+"363","Barbara, Mrs. (Catherine David)",0,45,14.4542,1,0,0,0,1,0
+"364","Asim, Mr. Adola",0,35,7.05,0,1,0,0,0,0
+"365","O'Brien, Mr. Thomas",0,27,15.5,0,0,0,0,0,1
+"366","Adahl, Mr. Mauritz Nils Martin",0,30,7.25,0,1,0,0,0,0
+"367","Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",1,60,75.25,1,0,1,0,1,0
+"368","Moussa, Mrs. (Mantoura Boulos)",1,22,7.2292,1,1,0,0,1,0
+"369","Jermyn, Miss. Annie",1,22,7.75,1,1,0,0,0,1
+"370","Aubart, Mme. Leontine Pauline",1,24,69.3,1,1,1,0,1,0
+"371","Harder, Mr. George Achilles",1,25,55.4417,0,0,1,0,1,0
+"372","Wiklund, Mr. Jakob Alfred",0,18,6.4958,0,0,0,0,0,0
+"373","Beavan, Mr. William Thomas",0,19,8.05,0,1,0,0,0,0
+"374","Ringhini, Mr. Sante",0,22,135.6333,0,1,1,0,1,0
+"375","Palsson, Miss. Stina Viola",0,3,21.075,1,0,0,0,0,0
+"376","Meyer, Mrs. Edgar Joseph (Leila Saks)",1,35,82.1708,1,0,1,0,1,0
+"377","Landergren, Miss. Aurora Adelia",1,22,7.25,1,1,0,0,0,0
+"378","Widener, Mr. Harry Elkins",0,27,211.5,0,0,1,0,1,0
+"379","Betros, Mr. Tannous",0,20,4.0125,0,1,0,0,1,0
+"380","Gustafsson, Mr. Karl Gideon",0,19,7.775,0,1,0,0,0,0
+"381","Bidois, Miss. Rosalie",1,42,227.525,1,1,1,0,1,0
+"382","Nakid, Miss. Maria (""Mary"")",1,1,15.7417,1,0,0,0,1,0
+"383","Tikkanen, Mr. Juho",0,32,7.925,0,1,0,0,0,0
+"384","Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",1,35,52,1,0,1,0,0,0
+"385","Plotcharsky, Mr. Vasil",0,27,7.8958,0,1,0,0,0,0
+"386","Davies, Mr. Charles Henry",0,18,73.5,0,1,0,1,0,0
+"387","Goodwin, Master. Sidney Leonard",0,1,46.9,0,0,0,0,0,0
+"388","Buss, Miss. Kate",1,36,13,1,1,0,1,0,0
+"389","Sadlier, Mr. Matthew",0,27,7.7292,0,1,0,0,0,1
+"390","Lehmann, Miss. Bertha",1,17,12,1,1,0,1,1,0
+"391","Carter, Mr. William Ernest",1,36,120,0,0,1,0,0,0
+"392","Jansson, Mr. Carl Olof",1,21,7.7958,0,1,0,0,0,0
+"393","Gustafsson, Mr. Johan Birger",0,28,7.925,0,0,0,0,0,0
+"394","Newell, Miss. Marjorie",1,23,113.275,1,0,1,0,1,0
+"395","Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",1,24,16.7,1,0,0,0,0,0
+"396","Johansson, Mr. Erik",0,22,7.7958,0,1,0,0,0,0
+"397","Olsson, Miss. Elina",0,31,7.8542,1,1,0,0,0,0
+"398","McKane, Mr. Peter David",0,46,26,0,1,0,1,0,0
+"399","Pain, Dr. Alfred",0,23,10.5,0,1,0,1,0,0
+"400","Trout, Mrs. William H (Jessie L)",1,28,12.65,1,1,0,1,0,0
+"401","Niskanen, Mr. Juha",1,39,7.925,0,1,0,0,0,0
+"402","Adams, Mr. John",0,26,8.05,0,1,0,0,0,0
+"403","Jussila, Miss. Mari Aina",0,21,9.825,1,0,0,0,0,0
+"404","Hakkarainen, Mr. Pekka Pietari",0,28,15.85,0,0,0,0,0,0
+"405","Oreskovic, Miss. Marija",0,20,8.6625,1,1,0,0,0,0
+"406","Gale, Mr. Shadrach",0,34,21,0,0,0,1,0,0
+"407","Widegren, Mr. Carl/Charles Peter",0,51,7.75,0,1,0,0,0,0
+"408","Richards, Master. William Rowe",1,3,18.75,0,0,0,1,0,0
+"409","Birkeland, Mr. Hans Martin Monsen",0,21,7.775,0,1,0,0,0,0
+"410","Lefebre, Miss. Ida",0,22,25.4667,1,0,0,0,0,0
+"411","Sdycoff, Mr. Todor",0,27,7.8958,0,1,0,0,0,0
+"412","Hart, Mr. Henry",0,27,6.8583,0,1,0,0,0,1
+"413","Minahan, Miss. Daisy E",1,33,90,1,0,1,0,0,1
+"414","Cunningham, Mr. Alfred Fleming",0,31,0,0,1,0,1,0,0
+"415","Sundman, Mr. Johan Julian",1,44,7.925,0,1,0,0,0,0
+"416","Meek, Mrs. Thomas (Annie Louise Rowley)",0,22,8.05,1,1,0,0,0,0
+"417","Drew, Mrs. James Vivian (Lulu Thorne Christian)",1,34,32.5,1,0,0,1,0,0
+"418","Silven, Miss. Lyyli Karoliina",1,18,13,1,0,0,1,0,0
+"419","Matthews, Mr. William John",0,30,13,0,1,0,1,0,0
+"420","Van Impe, Miss. Catharina",0,10,24.15,1,0,0,0,0,0
+"421","Gheorgheff, Mr. Stanio",0,27,7.8958,0,1,0,0,1,0
+"422","Charters, Mr. David",0,21,7.7333,0,1,0,0,0,1
+"423","Zimmerman, Mr. Leo",0,29,7.875,0,1,0,0,0,0
+"424","Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",0,28,14.4,1,0,0,0,0,0
+"425","Rosblom, Mr. Viktor Richard",0,18,20.2125,0,0,0,0,0,0
+"426","Wiseman, Mr. Phillippe",0,27,7.25,0,1,0,0,0,0
+"427","Clarke, Mrs. Charles V (Ada Maria Winfield)",1,28,26,1,0,0,1,0,0
+"428","Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",1,19,26,1,1,0,1,0,0
+"429","Flynn, Mr. James",0,27,7.75,0,1,0,0,0,1
+"430","Pickard, Mr. Berk (Berk Trembisky)",1,32,8.05,0,1,0,0,0,0
+"431","Bjornstrom-Steffansson, Mr. Mauritz Hakan",1,28,26.55,0,1,1,0,0,0
+"432","Thorneycroft, Mrs. Percival (Florence Kate White)",1,22,16.1,1,0,0,0,0,0
+"433","Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",1,42,26,1,0,0,1,0,0
+"434","Kallio, Mr. Nikolai Erland",0,17,7.125,0,1,0,0,0,0
+"435","Silvey, Mr. William Baird",0,50,55.9,0,0,1,0,0,0
+"436","Carter, Miss. Lucile Polk",1,14,120,1,0,1,0,0,0
+"437","Ford, Miss. Doolina Margaret ""Daisy""",0,21,34.375,1,0,0,0,0,0
+"438","Richards, Mrs. Sidney (Emily Hocking)",1,24,18.75,1,0,0,1,0,0
+"439","Fortune, Mr. Mark",0,64,263,0,0,1,0,0,0
+"440","Kvillner, Mr. Johan Henrik Johannesson",0,31,10.5,0,1,0,1,0,0
+"441","Hart, Mrs. Benjamin (Esther Ada Bloomfield)",1,45,26.25,1,0,0,1,0,0
+"442","Hampe, Mr. Leon",0,20,9.5,0,1,0,0,0,0
+"443","Petterson, Mr. Johan Emil",0,25,7.775,0,0,0,0,0,0
+"444","Reynaldo, Ms. Encarnacion",1,28,13,1,1,0,1,0,0
+"445","Johannesen-Bratthammer, Mr. Bernt",1,27,8.1125,0,1,0,0,0,0
+"446","Dodge, Master. Washington",1,4,81.8583,0,0,1,0,0,0
+"447","Mellinger, Miss. Madeleine Violet",1,13,19.5,1,0,0,1,0,0
+"448","Seward, Mr. Frederic Kimber",1,34,26.55,0,1,1,0,0,0
+"449","Baclini, Miss. Marie Catherine",1,5,19.2583,1,0,0,0,1,0
+"450","Peuchen, Major. Arthur Godfrey",1,52,30.5,0,1,1,0,0,0
+"451","West, Mr. Edwy Arthur",0,36,27.75,0,0,0,1,0,0
+"452","Hagland, Mr. Ingvald Olai Olsen",0,27,19.9667,0,0,0,0,0,0
+"453","Foreman, Mr. Benjamin Laventall",0,30,27.75,0,1,1,0,1,0
+"454","Goldenberg, Mr. Samuel L",1,49,89.1042,0,0,1,0,1,0
+"455","Peduzzi, Mr. Joseph",0,27,8.05,0,1,0,0,0,0
+"456","Jalsevac, Mr. Ivan",1,29,7.8958,0,1,0,0,1,0
+"457","Millet, Mr. Francis Davis",0,65,26.55,0,1,1,0,0,0
+"458","Kenyon, Mrs. Frederick R (Marion)",1,35,51.8625,1,0,1,0,0,0
+"459","Toomey, Miss. Ellen",1,50,10.5,1,1,0,1,0,0
+"460","O'Connor, Mr. Maurice",0,27,7.75,0,1,0,0,0,1
+"461","Anderson, Mr. Harry",1,48,26.55,0,1,1,0,0,0
+"462","Morley, Mr. William",0,34,8.05,0,1,0,0,0,0
+"463","Gee, Mr. Arthur H",0,47,38.5,0,1,1,0,0,0
+"464","Milling, Mr. Jacob Christian",0,48,13,0,1,0,1,0,0
+"465","Maisner, Mr. Simon",0,27,8.05,0,1,0,0,0,0
+"466","Goncalves, Mr. Manuel Estanslas",0,38,7.05,0,1,0,0,0,0
+"467","Campbell, Mr. William",0,31,0,0,1,0,1,0,0
+"468","Smart, Mr. John Montgomery",0,56,26.55,0,1,1,0,0,0
+"469","Scanlan, Mr. James",0,27,7.725,0,1,0,0,0,1
+"470","Baclini, Miss. Helene Barbara",1,0.75,19.2583,1,0,0,0,1,0
+"471","Keefe, Mr. Arthur",0,27,7.25,0,1,0,0,0,0
+"472","Cacic, Mr. Luka",0,38,8.6625,0,1,0,0,0,0
+"473","West, Mrs. Edwy Arthur (Ada Mary Worth)",1,33,27.75,1,0,0,1,0,0
+"474","Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",1,23,13.7917,1,1,0,1,1,0
+"475","Strandberg, Miss. Ida Sofia",0,22,9.8375,1,1,0,0,0,0
+"476","Clifford, Mr. George Quincy",0,41,52,0,1,1,0,0,0
+"477","Renouf, Mr. Peter Henry",0,34,21,0,0,0,1,0,0
+"478","Braund, Mr. Lewis Richard",0,29,7.0458,0,0,0,0,0,0
+"479","Karlsson, Mr. Nils August",0,22,7.5208,0,1,0,0,0,0
+"480","Hirvonen, Miss. Hildur E",1,2,12.2875,1,0,0,0,0,0
+"481","Goodwin, Master. Harold Victor",0,9,46.9,0,0,0,0,0,0
+"482","Frost, Mr. Anthony Wood ""Archie""",0,31,0,0,1,0,1,0,0
+"483","Rouse, Mr. Richard Henry",0,50,8.05,0,1,0,0,0,0
+"484","Turkula, Mrs. (Hedwig)",1,63,9.5875,1,1,0,0,0,0
+"485","Bishop, Mr. Dickinson H",1,25,91.0792,0,0,1,0,1,0
+"486","Lefebre, Miss. Jeannie",0,22,25.4667,1,0,0,0,0,0
+"487","Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",1,35,90,1,0,1,0,0,0
+"488","Kent, Mr. Edward Austin",0,58,29.7,0,1,1,0,1,0
+"489","Somerton, Mr. Francis William",0,30,8.05,0,1,0,0,0,0
+"490","Coutts, Master. Eden Leslie ""Neville""",1,9,15.9,0,0,0,0,0,0
+"491","Hagland, Mr. Konrad Mathias Reiersen",0,27,19.9667,0,0,0,0,0,0
+"492","Windelov, Mr. Einar",0,21,7.25,0,1,0,0,0,0
+"493","Molson, Mr. Harry Markland",0,55,30.5,0,1,1,0,0,0
+"494","Artagaveytia, Mr. Ramon",0,71,49.5042,0,1,1,0,1,0
+"495","Stanley, Mr. Edward Roland",0,21,8.05,0,1,0,0,0,0
+"496","Yousseff, Mr. Gerious",0,27,14.4583,0,1,0,0,1,0
+"497","Eustis, Miss. Elizabeth Mussey",1,54,78.2667,1,0,1,0,1,0
+"498","Shellard, Mr. Frederick William",0,27,15.1,0,1,0,0,0,0
+"499","Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",0,25,151.55,1,0,1,0,0,0
+"500","Svensson, Mr. Olof",0,24,7.7958,0,1,0,0,0,0
+"501","Calic, Mr. Petar",0,17,8.6625,0,1,0,0,0,0
+"502","Canavan, Miss. Mary",0,21,7.75,1,1,0,0,0,1
+"503","O'Sullivan, Miss. Bridget Mary",0,22,7.6292,1,1,0,0,0,1
+"504","Laitinen, Miss. Kristina Sofia",0,37,9.5875,1,1,0,0,0,0
+"505","Maioni, Miss. Roberta",1,16,86.5,1,1,1,0,0,0
+"506","Penasco y Castellana, Mr. Victor de Satode",0,18,108.9,0,0,1,0,1,0
+"507","Quick, Mrs. Frederick Charles (Jane Richards)",1,33,26,1,0,0,1,0,0
+"508","Bradley, Mr. George (""George Arthur Brayton"")",1,41,26.55,0,1,1,0,0,0
+"509","Olsen, Mr. Henry Margido",0,28,22.525,0,1,0,0,0,0
+"510","Lang, Mr. Fang",1,26,56.4958,0,1,0,0,0,0
+"511","Daly, Mr. Eugene Patrick",1,29,7.75,0,1,0,0,0,1
+"512","Webber, Mr. James",0,27,8.05,0,1,0,0,0,0
+"513","McGough, Mr. James Robert",1,36,26.2875,0,1,1,0,0,0
+"514","Rothschild, Mrs. Martin (Elizabeth L. Barrett)",1,54,59.4,1,0,1,0,1,0
+"515","Coleff, Mr. Satio",0,24,7.4958,0,1,0,0,0,0
+"516","Walker, Mr. William Anderson",0,47,34.0208,0,1,1,0,0,0
+"517","Lemore, Mrs. (Amelia Milley)",1,34,10.5,1,1,0,1,0,0
+"518","Ryan, Mr. Patrick",0,27,24.15,0,1,0,0,0,1
+"519","Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",1,36,26,1,0,0,1,0,0
+"520","Pavlovic, Mr. Stefo",0,32,7.8958,0,1,0,0,0,0
+"521","Perreault, Miss. Anne",1,30,93.5,1,1,1,0,0,0
+"522","Vovk, Mr. Janko",0,22,7.8958,0,1,0,0,0,0
+"523","Lahoud, Mr. Sarkis",0,27,7.225,0,1,0,0,1,0
+"524","Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",1,44,57.9792,1,0,1,0,1,0
+"525","Kassem, Mr. Fared",0,27,7.2292,0,1,0,0,1,0
+"526","Farrell, Mr. James",0,40.5,7.75,0,1,0,0,0,1
+"527","Ridsdale, Miss. Lucy",1,50,10.5,1,1,0,1,0,0
+"528","Farthing, Mr. John",0,41,221.7792,0,1,1,0,0,0
+"529","Salonen, Mr. Johan Werner",0,39,7.925,0,1,0,0,0,0
+"530","Hocking, Mr. Richard George",0,23,11.5,0,0,0,1,0,0
+"531","Quick, Miss. Phyllis May",1,2,26,1,0,0,1,0,0
+"532","Toufik, Mr. Nakli",0,27,7.2292,0,1,0,0,1,0
+"533","Elias, Mr. Joseph Jr",0,17,7.2292,0,0,0,0,1,0
+"534","Peter, Mrs. Catherine (Catherine Rizk)",1,22,22.3583,1,0,0,0,1,0
+"535","Cacic, Miss. Marija",0,30,8.6625,1,1,0,0,0,0
+"536","Hart, Miss. Eva Miriam",1,7,26.25,1,0,0,1,0,0
+"537","Butt, Major. Archibald Willingham",0,45,26.55,0,1,1,0,0,0
+"538","LeRoy, Miss. Bertha",1,30,106.425,1,1,1,0,1,0
+"539","Risien, Mr. Samuel Beard",0,27,14.5,0,1,0,0,0,0
+"540","Frolicher, Miss. Hedwig Margaritha",1,22,49.5,1,0,1,0,1,0
+"541","Crosby, Miss. Harriet R",1,36,71,1,0,1,0,0,0
+"542","Andersson, Miss. Ingeborg Constanzia",0,9,31.275,1,0,0,0,0,0
+"543","Andersson, Miss. Sigrid Elisabeth",0,11,31.275,1,0,0,0,0,0
+"544","Beane, Mr. Edward",1,32,26,0,0,0,1,0,0
+"545","Douglas, Mr. Walter Donald",0,50,106.425,0,0,1,0,1,0
+"546","Nicholson, Mr. Arthur Ernest",0,64,26,0,1,1,0,0,0
+"547","Beane, Mrs. Edward (Ethel Clarke)",1,19,26,1,0,0,1,0,0
+"548","Padro y Manent, Mr. Julian",1,31,13.8625,0,1,0,1,1,0
+"549","Goldsmith, Mr. Frank John",0,33,20.525,0,0,0,0,0,0
+"550","Davies, Master. John Morgan Jr",1,8,36.75,0,0,0,1,0,0
+"551","Thayer, Mr. John Borland Jr",1,17,110.8833,0,0,1,0,1,0
+"552","Sharp, Mr. Percival James R",0,27,26,0,1,0,1,0,0
+"553","O'Brien, Mr. Timothy",0,27,7.8292,0,1,0,0,0,1
+"554","Leeni, Mr. Fahim (""Philip Zenni"")",1,22,7.225,0,1,0,0,1,0
+"555","Ohman, Miss. Velin",1,22,7.775,1,1,0,0,0,0
+"556","Wright, Mr. George",0,62,26.55,0,1,1,0,0,0
+"557","Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",1,48,39.6,1,0,1,0,1,0
+"558","Robbins, Mr. Victor",0,41,227.525,0,1,1,0,1,0
+"559","Taussig, Mrs. Emil (Tillie Mandelbaum)",1,39,79.65,1,0,1,0,0,0
+"560","de Messemaeker, Mrs. Guillaume Joseph (Emma)",1,36,17.4,1,0,0,0,0,0
+"561","Morrow, Mr. Thomas Rowan",0,27,7.75,0,1,0,0,0,1
+"562","Sivic, Mr. Husein",0,40,7.8958,0,1,0,0,0,0
+"563","Norman, Mr. Robert Douglas",0,28,13.5,0,1,0,1,0,0
+"564","Simmons, Mr. John",0,27,8.05,0,1,0,0,0,0
+"565","Meanwell, Miss. (Marion Ogden)",0,22,8.05,1,1,0,0,0,0
+"566","Davies, Mr. Alfred J",0,24,24.15,0,0,0,0,0,0
+"567","Stoytcheff, Mr. Ilia",0,19,7.8958,0,1,0,0,0,0
+"568","Palsson, Mrs. Nils (Alma Cornelia Berglund)",0,29,21.075,1,0,0,0,0,0
+"569","Doharr, Mr. Tannous",0,27,7.2292,0,1,0,0,1,0
+"570","Jonsson, Mr. Carl",1,32,7.8542,0,1,0,0,0,0
+"571","Harris, Mr. George",1,62,10.5,0,1,0,1,0,0
+"572","Appleton, Mrs. Edward Dale (Charlotte Lamson)",1,53,51.4792,1,0,1,0,0,0
+"573","Flynn, Mr. John Irwin (""Irving"")",1,36,26.3875,0,1,1,0,0,0
+"574","Kelly, Miss. Mary",1,22,7.75,1,1,0,0,0,1
+"575","Rush, Mr. Alfred George John",0,16,8.05,0,1,0,0,0,0
+"576","Patchett, Mr. George",0,19,14.5,0,1,0,0,0,0
+"577","Garside, Miss. Ethel",1,34,13,1,1,0,1,0,0
+"578","Silvey, Mrs. William Baird (Alice Munger)",1,39,55.9,1,0,1,0,0,0
+"579","Caram, Mrs. Joseph (Maria Elias)",0,22,14.4583,1,0,0,0,1,0
+"580","Jussila, Mr. Eiriik",1,32,7.925,0,1,0,0,0,0
+"581","Christy, Miss. Julie Rachel",1,25,30,1,0,0,1,0,0
+"582","Thayer, Mrs. John Borland (Marian Longstreth Morris)",1,39,110.8833,1,0,1,0,1,0
+"583","Downton, Mr. William James",0,54,26,0,1,0,1,0,0
+"584","Ross, Mr. John Hugo",0,36,40.125,0,1,1,0,1,0
+"585","Paulner, Mr. Uscher",0,27,8.7125,0,1,0,0,1,0
+"586","Taussig, Miss. Ruth",1,18,79.65,1,0,1,0,0,0
+"587","Jarvis, Mr. John Denzil",0,47,15,0,1,0,1,0,0
+"588","Frolicher-Stehli, Mr. Maxmillian",1,60,79.2,0,0,1,0,1,0
+"589","Gilinski, Mr. Eliezer",0,22,8.05,0,1,0,0,0,0
+"590","Murdlin, Mr. Joseph",0,27,8.05,0,1,0,0,0,0
+"591","Rintamaki, Mr. Matti",0,35,7.125,0,1,0,0,0,0
+"592","Stephenson, Mrs. Walter Bertram (Martha Eustis)",1,52,78.2667,1,0,1,0,1,0
+"593","Elsbury, Mr. William James",0,47,7.25,0,1,0,0,0,0
+"594","Bourke, Miss. Mary",0,22,7.75,1,0,0,0,0,1
+"595","Chapman, Mr. John Henry",0,37,26,0,0,0,1,0,0
+"596","Van Impe, Mr. Jean Baptiste",0,36,24.15,0,0,0,0,0,0
+"597","Leitch, Miss. Jessie Wills",1,28,33,1,1,0,1,0,0
+"598","Johnson, Mr. Alfred",0,49,0,0,1,0,0,0,0
+"599","Boulos, Mr. Hanna",0,27,7.225,0,1,0,0,1,0
+"600","Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",1,49,56.9292,0,0,1,0,1,0
+"601","Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",1,24,27,1,0,0,1,0,0
+"602","Slabenoff, Mr. Petco",0,27,7.8958,0,1,0,0,0,0
+"603","Harrington, Mr. Charles H",0,41,42.4,0,1,1,0,0,0
+"604","Torber, Mr. Ernst William",0,44,8.05,0,1,0,0,0,0
+"605","Homer, Mr. Harry (""Mr E Haven"")",1,35,26.55,0,1,1,0,1,0
+"606","Lindell, Mr. Edvard Bengtsson",0,36,15.55,0,0,0,0,0,0
+"607","Karaic, Mr. Milan",0,30,7.8958,0,1,0,0,0,0
+"608","Daniel, Mr. Robert Williams",1,27,30.5,0,1,1,0,0,0
+"609","Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",1,22,41.5792,1,0,0,1,1,0
+"610","Shutes, Miss. Elizabeth W",1,40,153.4625,1,1,1,0,0,0
+"611","Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",0,39,31.275,1,0,0,0,0,0
+"612","Jardin, Mr. Jose Neto",0,27,7.05,0,1,0,0,0,0
+"613","Murphy, Miss. Margaret Jane",1,22,15.5,1,0,0,0,0,1
+"614","Horgan, Mr. John",0,27,7.75,0,1,0,0,0,1
+"615","Brocklebank, Mr. William Alfred",0,35,8.05,0,1,0,0,0,0
+"616","Herman, Miss. Alice",1,24,65,1,0,0,1,0,0
+"617","Danbom, Mr. Ernst Gilbert",0,34,14.4,0,0,0,0,0,0
+"618","Lobb, Mrs. William Arthur (Cordelia K Stanlick)",0,26,16.1,1,0,0,0,0,0
+"619","Becker, Miss. Marion Louise",1,4,39,1,0,0,1,0,0
+"620","Gavey, Mr. Lawrence",0,26,10.5,0,1,0,1,0,0
+"621","Yasbeck, Mr. Antoni",0,27,14.4542,0,0,0,0,1,0
+"622","Kimball, Mr. Edwin Nelson Jr",1,42,52.5542,0,0,1,0,0,0
+"623","Nakid, Mr. Sahid",1,20,15.7417,0,0,0,0,1,0
+"624","Hansen, Mr. Henry Damsgaard",0,21,7.8542,0,1,0,0,0,0
+"625","Bowen, Mr. David John ""Dai""",0,21,16.1,0,1,0,0,0,0
+"626","Sutton, Mr. Frederick",0,61,32.3208,0,1,1,0,0,0
+"627","Kirkland, Rev. Charles Leonard",0,57,12.35,0,1,0,1,0,1
+"628","Longley, Miss. Gretchen Fiske",1,21,77.9583,1,1,1,0,0,0
+"629","Bostandyeff, Mr. Guentcho",0,26,7.8958,0,1,0,0,0,0
+"630","O'Connell, Mr. Patrick D",0,27,7.7333,0,1,0,0,0,1
+"631","Barkworth, Mr. Algernon Henry Wilson",1,80,30,0,1,1,0,0,0
+"632","Lundahl, Mr. Johan Svensson",0,51,7.0542,0,1,0,0,0,0
+"633","Stahelin-Maeglin, Dr. Max",1,32,30.5,0,1,1,0,1,0
+"634","Parr, Mr. William Henry Marsh",0,41,0,0,1,1,0,0,0
+"635","Skoog, Miss. Mabel",0,9,27.9,1,0,0,0,0,0
+"636","Davis, Miss. Mary",1,28,13,1,1,0,1,0,0
+"637","Leinonen, Mr. Antti Gustaf",0,32,7.925,0,1,0,0,0,0
+"638","Collyer, Mr. Harvey",0,31,26.25,0,0,0,1,0,0
+"639","Panula, Mrs. Juha (Maria Emilia Ojala)",0,41,39.6875,1,0,0,0,0,0
+"640","Thorneycroft, Mr. Percival",0,27,16.1,0,0,0,0,0,0
+"641","Jensen, Mr. Hans Peder",0,20,7.8542,0,1,0,0,0,0
+"642","Sagesser, Mlle. Emma",1,24,69.3,1,1,1,0,1,0
+"643","Skoog, Miss. Margit Elizabeth",0,2,27.9,1,0,0,0,0,0
+"644","Foo, Mr. Choong",1,27,56.4958,0,1,0,0,0,0
+"645","Baclini, Miss. Eugenie",1,0.75,19.2583,1,0,0,0,1,0
+"646","Harper, Mr. Henry Sleeper",1,48,76.7292,0,0,1,0,1,0
+"647","Cor, Mr. Liudevit",0,19,7.8958,0,1,0,0,0,0
+"648","Simonius-Blumer, Col. Oberst Alfons",1,56,35.5,0,1,1,0,1,0
+"649","Willey, Mr. Edward",0,27,7.55,0,1,0,0,0,0
+"650","Stanley, Miss. Amy Zillah Elsie",1,23,7.55,1,1,0,0,0,0
+"651","Mitkoff, Mr. Mito",0,27,7.8958,0,1,0,0,0,0
+"652","Doling, Miss. Elsie",1,18,23,1,0,0,1,0,0
+"653","Kalvik, Mr. Johannes Halvorsen",0,21,8.4333,0,1,0,0,0,0
+"654","O'Leary, Miss. Hanora ""Norah""",1,22,7.8292,1,1,0,0,0,1
+"655","Hegarty, Miss. Hanora ""Nora""",0,18,6.75,1,1,0,0,0,1
+"656","Hickman, Mr. Leonard Mark",0,24,73.5,0,0,0,1,0,0
+"657","Radeff, Mr. Alexander",0,27,7.8958,0,1,0,0,0,0
+"658","Bourke, Mrs. John (Catherine)",0,32,15.5,1,0,0,0,0,1
+"659","Eitemiller, Mr. George Floyd",0,23,13,0,1,0,1,0,0
+"660","Newell, Mr. Arthur Webster",0,58,113.275,0,0,1,0,1,0
+"661","Frauenthal, Dr. Henry William",1,50,133.65,0,0,1,0,0,0
+"662","Badt, Mr. Mohamed",0,40,7.225,0,1,0,0,1,0
+"663","Colley, Mr. Edward Pomeroy",0,47,25.5875,0,1,1,0,0,0
+"664","Coleff, Mr. Peju",0,36,7.4958,0,1,0,0,0,0
+"665","Lindqvist, Mr. Eino William",1,20,7.925,0,0,0,0,0,0
+"666","Hickman, Mr. Lewis",0,32,73.5,0,0,0,1,0,0
+"667","Butler, Mr. Reginald Fenton",0,25,13,0,1,0,1,0,0
+"668","Rommetvedt, Mr. Knud Paust",0,27,7.775,0,1,0,0,0,0
+"669","Cook, Mr. Jacob",0,43,8.05,0,1,0,0,0,0
+"670","Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",1,35,52,1,0,1,0,0,0
+"671","Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",1,40,39,1,0,0,1,0,0
+"672","Davidson, Mr. Thornton",0,31,52,0,0,1,0,0,0
+"673","Mitchell, Mr. Henry Michael",0,70,10.5,0,1,0,1,0,0
+"674","Wilhelms, Mr. Charles",1,31,13,0,1,0,1,0,0
+"675","Watson, Mr. Ennis Hastings",0,31,0,0,1,0,1,0,0
+"676","Edvardsson, Mr. Gustaf Hjalmar",0,18,7.775,0,1,0,0,0,0
+"677","Sawyer, Mr. Frederick Charles",0,24.5,8.05,0,1,0,0,0,0
+"678","Turja, Miss. Anna Sofia",1,18,9.8417,1,1,0,0,0,0
+"679","Goodwin, Mrs. Frederick (Augusta Tyler)",0,43,46.9,1,0,0,0,0,0
+"680","Cardeza, Mr. Thomas Drake Martinez",1,36,512.3292,0,0,1,0,1,0
+"681","Peters, Miss. Katie",0,22,8.1375,1,1,0,0,0,1
+"682","Hassab, Mr. Hammad",1,27,76.7292,0,1,1,0,1,0
+"683","Olsvigen, Mr. Thor Anderson",0,20,9.225,0,1,0,0,0,0
+"684","Goodwin, Mr. Charles Edward",0,14,46.9,0,0,0,0,0,0
+"685","Brown, Mr. Thomas William Solomon",0,60,39,0,0,0,1,0,0
+"686","Laroche, Mr. Joseph Philippe Lemercier",0,25,41.5792,0,0,0,1,1,0
+"687","Panula, Mr. Jaako Arnold",0,14,39.6875,0,0,0,0,0,0
+"688","Dakic, Mr. Branko",0,19,10.1708,0,1,0,0,0,0
+"689","Fischer, Mr. Eberhard Thelander",0,18,7.7958,0,1,0,0,0,0
+"690","Madill, Miss. Georgette Alexandra",1,15,211.3375,1,0,1,0,0,0
+"691","Dick, Mr. Albert Adrian",1,31,57,0,0,1,0,0,0
+"692","Karun, Miss. Manca",1,4,13.4167,1,0,0,0,1,0
+"693","Lam, Mr. Ali",1,27,56.4958,0,1,0,0,0,0
+"694","Saad, Mr. Khalil",0,25,7.225,0,1,0,0,1,0
+"695","Weir, Col. John",0,60,26.55,0,1,1,0,0,0
+"696","Chapman, Mr. Charles Henry",0,52,13.5,0,1,0,1,0,0
+"697","Kelly, Mr. James",0,44,8.05,0,1,0,0,0,0
+"698","Mullens, Miss. Katherine ""Katie""",1,22,7.7333,1,1,0,0,0,1
+"699","Thayer, Mr. John Borland",0,49,110.8833,0,0,1,0,1,0
+"700","Humblen, Mr. Adolf Mathias Nicolai Olsen",0,42,7.65,0,1,0,0,0,0
+"701","Astor, Mrs. John Jacob (Madeleine Talmadge Force)",1,18,227.525,1,0,1,0,1,0
+"702","Silverthorne, Mr. Spencer Victor",1,35,26.2875,0,1,1,0,0,0
+"703","Barbara, Miss. Saiide",0,18,14.4542,1,0,0,0,1,0
+"704","Gallagher, Mr. Martin",0,25,7.7417,0,1,0,0,0,1
+"705","Hansen, Mr. Henrik Juul",0,26,7.8542,0,0,0,0,0,0
+"706","Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",0,39,26,0,1,0,1,0,0
+"707","Kelly, Mrs. Florence ""Fannie""",1,45,13.5,1,1,0,1,0,0
+"708","Calderhead, Mr. Edward Pennington",1,42,26.2875,0,1,1,0,0,0
+"709","Cleaver, Miss. Alice",1,22,151.55,1,1,1,0,0,0
+"710","Moubarek, Master. Halim Gonios (""William George"")",1,27,15.2458,0,0,0,0,1,0
+"711","Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",1,24,49.5042,1,1,1,0,1,0
+"712","Klaber, Mr. Herman",0,41,26.55,0,1,1,0,0,0
+"713","Taylor, Mr. Elmer Zebley",1,48,52,0,0,1,0,0,0
+"714","Larsson, Mr. August Viktor",0,29,9.4833,0,1,0,0,0,0
+"715","Greenberg, Mr. Samuel",0,52,13,0,1,0,1,0,0
+"716","Soholt, Mr. Peter Andreas Lauritz Andersen",0,19,7.65,0,1,0,0,0,0
+"717","Endres, Miss. Caroline Louise",1,38,227.525,1,1,1,0,1,0
+"718","Troutt, Miss. Edwina Celia ""Winnie""",1,27,10.5,1,1,0,1,0,0
+"719","McEvoy, Mr. Michael",0,27,15.5,0,1,0,0,0,1
+"720","Johnson, Mr. Malkolm Joackim",0,33,7.775,0,1,0,0,0,0
+"721","Harper, Miss. Annie Jessie ""Nina""",1,6,33,1,0,0,1,0,0
+"722","Jensen, Mr. Svend Lauritz",0,17,7.0542,0,0,0,0,0,0
+"723","Gillespie, Mr. William Henry",0,34,13,0,1,0,1,0,0
+"724","Hodges, Mr. Henry Price",0,50,13,0,1,0,1,0,0
+"725","Chambers, Mr. Norman Campbell",1,27,53.1,0,0,1,0,0,0
+"726","Oreskovic, Mr. Luka",0,20,8.6625,0,1,0,0,0,0
+"727","Renouf, Mrs. Peter Henry (Lillian Jefferys)",1,30,21,1,0,0,1,0,0
+"728","Mannion, Miss. Margareth",1,22,7.7375,1,1,0,0,0,1
+"729","Bryhl, Mr. Kurt Arnold Gottfrid",0,25,26,0,0,0,1,0,0
+"730","Ilmakangas, Miss. Pieta Sofia",0,25,7.925,1,0,0,0,0,0
+"731","Allen, Miss. Elisabeth Walton",1,29,211.3375,1,1,1,0,0,0
+"732","Hassan, Mr. Houssein G N",0,11,18.7875,0,1,0,0,1,0
+"733","Knight, Mr. Robert J",0,31,0,0,1,0,1,0,0
+"734","Berriman, Mr. William John",0,23,13,0,1,0,1,0,0
+"735","Troupiansky, Mr. Moses Aaron",0,23,13,0,1,0,1,0,0
+"736","Williams, Mr. Leslie",0,28.5,16.1,0,1,0,0,0,0
+"737","Ford, Mrs. Edward (Margaret Ann Watson)",0,48,34.375,1,0,0,0,0,0
+"738","Lesurer, Mr. Gustave J",1,35,512.3292,0,1,1,0,1,0
+"739","Ivanoff, Mr. Kanio",0,27,7.8958,0,1,0,0,0,0
+"740","Nankoff, Mr. Minko",0,27,7.8958,0,1,0,0,0,0
+"741","Hawksford, Mr. Walter James",1,41,30,0,1,1,0,0,0
+"742","Cavendish, Mr. Tyrell William",0,36,78.85,0,0,1,0,0,0
+"743","Ryerson, Miss. Susan Parker ""Suzette""",1,21,262.375,1,0,1,0,1,0
+"744","McNamee, Mr. Neal",0,24,16.1,0,0,0,0,0,0
+"745","Stranden, Mr. Juho",1,31,7.925,0,1,0,0,0,0
+"746","Crosby, Capt. Edward Gifford",0,70,71,0,0,1,0,0,0
+"747","Abbott, Mr. Rossmore Edward",0,16,20.25,0,0,0,0,0,0
+"748","Sinkkonen, Miss. Anna",1,30,13,1,1,0,1,0,0
+"749","Marvin, Mr. Daniel Warner",0,19,53.1,0,0,1,0,0,0
+"750","Connaghton, Mr. Michael",0,31,7.75,0,1,0,0,0,1
+"751","Wells, Miss. Joan",1,4,23,1,0,0,1,0,0
+"752","Moor, Master. Meier",1,6,12.475,0,0,0,0,0,0
+"753","Vande Velde, Mr. Johannes Joseph",0,33,9.5,0,1,0,0,0,0
+"754","Jonkoff, Mr. Lalio",0,23,7.8958,0,1,0,0,0,0
+"755","Herman, Mrs. Samuel (Jane Laver)",1,48,65,1,0,0,1,0,0
+"756","Hamalainen, Master. Viljo",1,0.67,14.5,0,0,0,1,0,0
+"757","Carlsson, Mr. August Sigfrid",0,28,7.7958,0,1,0,0,0,0
+"758","Bailey, Mr. Percy Andrew",0,18,11.5,0,1,0,1,0,0
+"759","Theobald, Mr. Thomas Leonard",0,34,8.05,0,1,0,0,0,0
+"760","Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",1,33,86.5,1,1,1,0,0,0
+"761","Garfirth, Mr. John",0,27,14.5,0,1,0,0,0,0
+"762","Nirva, Mr. Iisakki Antino Aijo",0,41,7.125,0,1,0,0,0,0
+"763","Barah, Mr. Hanna Assi",1,20,7.2292,0,1,0,0,1,0
+"764","Carter, Mrs. William Ernest (Lucile Polk)",1,36,120,1,0,1,0,0,0
+"765","Eklund, Mr. Hans Linus",0,16,7.775,0,1,0,0,0,0
+"766","Hogeboom, Mrs. John C (Anna Andrews)",1,51,77.9583,1,0,1,0,0,0
+"767","Brewe, Dr. Arthur Jackson",0,41,39.6,0,1,1,0,1,0
+"768","Mangan, Miss. Mary",0,30.5,7.75,1,1,0,0,0,1
+"769","Moran, Mr. Daniel J",0,27,24.15,0,0,0,0,0,1
+"770","Gronnestad, Mr. Daniel Danielsen",0,32,8.3625,0,1,0,0,0,0
+"771","Lievens, Mr. Rene Aime",0,24,9.5,0,1,0,0,0,0
+"772","Jensen, Mr. Niels Peder",0,48,7.8542,0,1,0,0,0,0
+"773","Mack, Mrs. (Mary)",0,57,10.5,1,1,0,1,0,0
+"774","Elias, Mr. Dibo",0,27,7.225,0,1,0,0,1,0
+"775","Hocking, Mrs. Elizabeth (Eliza Needs)",1,54,23,1,0,0,1,0,0
+"776","Myhrman, Mr. Pehr Fabian Oliver Malkolm",0,18,7.75,0,1,0,0,0,0
+"777","Tobin, Mr. Roger",0,27,7.75,0,1,0,0,0,1
+"778","Emanuel, Miss. Virginia Ethel",1,5,12.475,1,1,0,0,0,0
+"779","Kilgannon, Mr. Thomas J",0,27,7.7375,0,1,0,0,0,1
+"780","Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",1,43,211.3375,1,0,1,0,0,0
+"781","Ayoub, Miss. Banoura",1,13,7.2292,1,1,0,0,1,0
+"782","Dick, Mrs. Albert Adrian (Vera Gillespie)",1,17,57,1,0,1,0,0,0
+"783","Long, Mr. Milton Clyde",0,29,30,0,1,1,0,0,0
+"784","Johnston, Mr. Andrew G",0,27,23.45,0,0,0,0,0,0
+"785","Ali, Mr. William",0,25,7.05,0,1,0,0,0,0
+"786","Harmer, Mr. Abraham (David Lishin)",0,25,7.25,0,1,0,0,0,0
+"787","Sjoblom, Miss. Anna Sofia",1,18,7.4958,1,1,0,0,0,0
+"788","Rice, Master. George Hugh",0,8,29.125,0,0,0,0,0,1
+"789","Dean, Master. Bertram Vere",1,1,20.575,0,0,0,0,0,0
+"790","Guggenheim, Mr. Benjamin",0,46,79.2,0,1,1,0,1,0
+"791","Keane, Mr. Andrew ""Andy""",0,27,7.75,0,1,0,0,0,1
+"792","Gaskell, Mr. Alfred",0,16,26,0,1,0,1,0,0
+"793","Sage, Miss. Stella Anna",0,22,69.55,1,0,0,0,0,0
+"794","Hoyt, Mr. William Fisher",0,41,30.6958,0,1,1,0,1,0
+"795","Dantcheff, Mr. Ristiu",0,25,7.8958,0,1,0,0,0,0
+"796","Otter, Mr. Richard",0,39,13,0,1,0,1,0,0
+"797","Leader, Dr. Alice (Farnham)",1,49,25.9292,1,1,1,0,0,0
+"798","Osman, Mrs. Mara",1,31,8.6833,1,1,0,0,0,0
+"799","Ibrahim Shawah, Mr. Yousseff",0,30,7.2292,0,1,0,0,1,0
+"800","Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",0,30,24.15,1,0,0,0,0,0
+"801","Ponesell, Mr. Martin",0,34,13,0,1,0,1,0,0
+"802","Collyer, Mrs. Harvey (Charlotte Annie Tate)",1,31,26.25,1,0,0,1,0,0
+"803","Carter, Master. William Thornton II",1,11,120,0,0,1,0,0,0
+"804","Thomas, Master. Assad Alexander",1,0.42,8.5167,0,0,0,0,1,0
+"805","Hedman, Mr. Oskar Arvid",1,27,6.975,0,1,0,0,0,0
+"806","Johansson, Mr. Karl Johan",0,31,7.775,0,1,0,0,0,0
+"807","Andrews, Mr. Thomas Jr",0,39,0,0,1,1,0,0,0
+"808","Pettersson, Miss. Ellen Natalia",0,18,7.775,1,1,0,0,0,0
+"809","Meyer, Mr. August",0,39,13,0,1,0,1,0,0
+"810","Chambers, Mrs. Norman Campbell (Bertha Griggs)",1,33,53.1,1,0,1,0,0,0
+"811","Alexander, Mr. William",0,26,7.8875,0,1,0,0,0,0
+"812","Lester, Mr. James",0,39,24.15,0,1,0,0,0,0
+"813","Slemen, Mr. Richard James",0,35,10.5,0,1,0,1,0,0
+"814","Andersson, Miss. Ebba Iris Alfrida",0,6,31.275,1,0,0,0,0,0
+"815","Tomlin, Mr. Ernest Portage",0,30.5,8.05,0,1,0,0,0,0
+"816","Fry, Mr. Richard",0,41,0,0,1,1,0,0,0
+"817","Heininen, Miss. Wendla Maria",0,23,7.925,1,1,0,0,0,0
+"818","Mallet, Mr. Albert",0,31,37.0042,0,0,0,1,1,0
+"819","Holm, Mr. John Fredrik Alexander",0,43,6.45,0,1,0,0,0,0
+"820","Skoog, Master. Karl Thorsten",0,10,27.9,0,0,0,0,0,0
+"821","Hays, Mrs. Charles Melville (Clara Jennings Gregg)",1,52,93.5,1,0,1,0,0,0
+"822","Lulic, Mr. Nikola",1,27,8.6625,0,1,0,0,0,0
+"823","Reuchlin, Jonkheer. John George",0,38,0,0,1,1,0,0,0
+"824","Moor, Mrs. (Beila)",1,27,12.475,1,0,0,0,0,0
+"825","Panula, Master. Urho Abraham",0,2,39.6875,0,0,0,0,0,0
+"826","Flynn, Mr. John",0,27,6.95,0,1,0,0,0,1
+"827","Lam, Mr. Len",0,27,56.4958,0,1,0,0,0,0
+"828","Mallet, Master. Andre",1,1,37.0042,0,0,0,1,1,0
+"829","McCormack, Mr. Thomas Joseph",1,27,7.75,0,1,0,0,0,1
+"830","Stone, Mrs. George Nelson (Martha Evelyn)",1,62,80,1,1,1,0,0,0
+"831","Yasbeck, Mrs. Antoni (Selini Alexander)",1,15,14.4542,1,0,0,0,1,0
+"832","Richards, Master. George Sibley",1,0.83,18.75,0,0,0,1,0,0
+"833","Saad, Mr. Amin",0,27,7.2292,0,1,0,0,1,0
+"834","Augustsson, Mr. Albert",0,23,7.8542,0,1,0,0,0,0
+"835","Allum, Mr. Owen George",0,18,8.3,0,1,0,0,0,0
+"836","Compton, Miss. Sara Rebecca",1,39,83.1583,1,0,1,0,1,0
+"837","Pasic, Mr. Jakob",0,21,8.6625,0,1,0,0,0,0
+"838","Sirota, Mr. Maurice",0,27,8.05,0,1,0,0,0,0
+"839","Chip, Mr. Chang",1,32,56.4958,0,1,0,0,0,0
+"840","Marechal, Mr. Pierre",1,41,29.7,0,1,1,0,1,0
+"841","Alhomaki, Mr. Ilmari Rudolf",0,20,7.925,0,1,0,0,0,0
+"842","Mudd, Mr. Thomas Charles",0,16,10.5,0,1,0,1,0,0
+"843","Serepeca, Miss. Augusta",1,30,31,1,1,1,0,1,0
+"844","Lemberopolous, Mr. Peter L",0,34.5,6.4375,0,1,0,0,1,0
+"845","Culumovic, Mr. Jeso",0,17,8.6625,0,1,0,0,0,0
+"846","Abbing, Mr. Anthony",0,42,7.55,0,1,0,0,0,0
+"847","Sage, Mr. Douglas Bullen",0,27,69.55,0,0,0,0,0,0
+"848","Markoff, Mr. Marin",0,35,7.8958,0,1,0,0,1,0
+"849","Harper, Rev. John",0,28,33,0,0,0,1,0,0
+"850","Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",1,35,89.1042,1,0,1,0,1,0
+"851","Andersson, Master. Sigvard Harald Elias",0,4,31.275,0,0,0,0,0,0
+"852","Svensson, Mr. Johan",0,74,7.775,0,1,0,0,0,0
+"853","Boulos, Miss. Nourelain",0,9,15.2458,1,0,0,0,1,0
+"854","Lines, Miss. Mary Conover",1,16,39.4,1,0,1,0,0,0
+"855","Carter, Mrs. Ernest Courtenay (Lilian Hughes)",0,44,26,1,0,0,1,0,0
+"856","Aks, Mrs. Sam (Leah Rosen)",1,18,9.35,1,0,0,0,0,0
+"857","Wick, Mrs. George Dennick (Mary Hitchcock)",1,45,164.8667,1,0,1,0,0,0
+"858","Daly, Mr. Peter Denis ",1,51,26.55,0,1,1,0,0,0
+"859","Baclini, Mrs. Solomon (Latifa Qurban)",1,24,19.2583,1,0,0,0,1,0
+"860","Razi, Mr. Raihed",0,27,7.2292,0,1,0,0,1,0
+"861","Hansen, Mr. Claus Peter",0,41,14.1083,0,0,0,0,0,0
+"862","Giles, Mr. Frederick Edward",0,21,11.5,0,0,0,1,0,0
+"863","Swift, Mrs. Frederick Joel (Margaret Welles Barron)",1,48,25.9292,1,1,1,0,0,0
+"864","Sage, Miss. Dorothy Edith ""Dolly""",0,22,69.55,1,0,0,0,0,0
+"865","Gill, Mr. John William",0,24,13,0,1,0,1,0,0
+"866","Bystrom, Mrs. (Karolina)",1,42,13,1,1,0,1,0,0
+"867","Duran y More, Miss. Asuncion",1,27,13.8583,1,0,0,1,1,0
+"868","Roebling, Mr. Washington Augustus II",0,31,50.4958,0,1,1,0,0,0
+"869","van Melkebeke, Mr. Philemon",0,27,9.5,0,1,0,0,0,0
+"870","Johnson, Master. Harold Theodor",1,4,11.1333,0,0,0,0,0,0
+"871","Balkic, Mr. Cerin",0,26,7.8958,0,1,0,0,0,0
+"872","Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",1,47,52.5542,1,0,1,0,0,0
+"873","Carlsson, Mr. Frans Olof",0,33,5,0,1,1,0,0,0
+"874","Vander Cruyssen, Mr. Victor",0,47,9,0,1,0,0,0,0
+"875","Abelson, Mrs. Samuel (Hannah Wizosky)",1,28,24,1,0,0,1,1,0
+"876","Najib, Miss. Adele Kiamie ""Jane""",1,15,7.225,1,1,0,0,1,0
+"877","Gustafsson, Mr. Alfred Ossian",0,20,9.8458,0,1,0,0,0,0
+"878","Petroff, Mr. Nedelio",0,19,7.8958,0,1,0,0,0,0
+"879","Laleff, Mr. Kristo",0,27,7.8958,0,1,0,0,0,0
+"880","Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",1,56,83.1583,1,0,1,0,1,0
+"881","Shelley, Mrs. William (Imanita Parrish Hall)",1,25,26,1,0,0,1,0,0
+"882","Markun, Mr. Johann",0,33,7.8958,0,1,0,0,0,0
+"883","Dahlberg, Miss. Gerda Ulrika",0,22,10.5167,1,1,0,0,0,0
+"884","Banfield, Mr. Frederick James",0,28,10.5,0,1,0,1,0,0
+"885","Sutehall, Mr. Henry Jr",0,25,7.05,0,1,0,0,0,0
+"886","Rice, Mrs. William (Margaret Norton)",0,39,29.125,1,0,0,0,0,1
+"887","Montvila, Rev. Juozas",0,27,13,0,1,0,1,0,0
+"888","Graham, Miss. Margaret Edith",1,19,30,1,1,1,0,0,0
+"889","Johnston, Miss. Catherine Helen ""Carrie""",0,22,23.45,1,0,0,0,0,0
+"890","Behr, Mr. Karl Howell",1,26,30,0,1,1,0,1,0
+"891","Dooley, Mr. Patrick",0,32,7.75,0,1,0,0,0,1
