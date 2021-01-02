@@ -90,6 +90,7 @@ From the lowess regression it becomes even more clear that there is truly a nega
 p1  +
   geom_smooth(aes(x = distance, y = price), method='loess', color = "deeppink4")
 ```
+
 ## Linear regression
 
 ```{r, echo=F, warning=F, message=F}
