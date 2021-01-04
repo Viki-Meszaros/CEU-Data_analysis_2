@@ -344,43 +344,26 @@ table(round(train$predm6), train$Survived)
 
 # FINAL PREDICTING MODELS -------------------------------------------------
 
-#### Logit and Probit models
+#
 
 model_formula <- formula( Survived ~ Female + Pclass_1 + Pclass_2 + lspline(Age, c(27, 32)) 
                            + Travel_alone + Q + C )
 #### LPM
-lpm <-lm( model_formula , data=ttrain)
+lpm <-lm( model_formula , data=train)
 summary(lpm, vcov=sandwich )
 
-ttrain$pred_lpm <- predict(lpm)
+train$pred_lpm <- predict(lpm)
 
-summary(ttrain$pred_lpm)
+summary(train$pred_lpm)
 
-ggplot( ttrain , aes( x = pred_flpm) ) +
-  geom_histogram( fill = 'navyblue' , color = 'grey90', binwidth = 0.08)
-
-ttrain <- ttrain %>% 
-  mutate( pred_lpm_100 = ntile(pred_lpm, 100) )
-
-source("C://Users/admin/Documents/CEU/Fall_semester/Data_analysis_2/Github/CEU-Data_analysis_2/Assignment_2/Codes/sum_stat.R")
-
-sum_stat( subset( ttrain , pred_lpm_100==100 ) , 
-          c('Female', 'Travel_alone', "Pclass_1", "Pclass_2", "C", "Q", "Age", "Fare"),
-          c('mean','median','sd'),
-          num_obs = F )
-
-sum_stat( subset( ttrain , pred_lpm_100==1 ) , 
-          c('Female', 'Travel_alone', "Pclass_1", "Pclass_2", "C", "Q", "Age", "Fare"),
-          c('mean','median','sd'),
-          num_obs = F )
-
+### Logit and Probit models
 #### LOGIT
-logit <- glm( model_formula , data=ttrain, family=binomial(link="logit") )
+logit <- glm( model_formula , data=train, family=binomial(link="logit") )
 summary(logit)
 glance(logit)
 
 # predicted probabilities 
-ttrain$pred_logit <- predict.glm(logit, type="response")
+train$pred_logit <- predict.glm(logit, type="response")
 summary(tdf$pred_logit)
 
 # Calculate logit marginal differences
@@ -389,15 +372,15 @@ print(logit_marg)
 
 
 #### PROBIT
-probit <- glm( model_formula , data = tdf , family=binomial(link="probit") )
+probit <- glm( model_formula , data = train , family=binomial(link="probit") )
 summary(probit)
 
 # predicted probabilities 
-ttrain$pred_probit<- predict.glm( probit , type = "response" )
-summary( ttrain$pred_probit )
+train$pred_probit<- predict.glm( probit , type = "response" )
+summary( train$pred_probit )
 
 # probit marginal differences
-probit_marg <- probitmfx(  model_formula, data=ttrain, atmean=FALSE, robust = T)
+probit_marg <- probitmfx(  model_formula, data=train, atmean=FALSE, robust = T)
 print( probit_marg )
 
 
@@ -428,7 +411,7 @@ msummary(list(lpm, logit, logit_marg, probit, probit_marg),
 
 #### Comparing predicted probabilities of logit and probit to LPM
 
-ggplot(data = ttrain) +
+ggplot(data = train) +
   geom_point(aes(x=pred_lpm, y=pred_probit, color="Probit"), size=1,  shape=16) +
   geom_point(aes(x=pred_lpm, y=pred_logit,  color="Logit"), size=1,  shape=16) +
   geom_line(aes(x=pred_lpm, y=pred_lpm,    color="45 degree line"), size=1) +
@@ -445,25 +428,93 @@ ggplot(data = ttrain) +
 stargazer(list(lpm, logit, probit), digits=3)
 
 
-
-
-sum_stat( subset( ttrain , Survived == 1 ) , 
+sum_stat( subset( train , Survived == 1 ) , 
           c( "pred_lpm","pred_logit","pred_probit" ),
           c("mean","median","min","max","sd"),
           num_obs = F )
 
-sum_stat( subset( ttrain , Survived == 0 ) , 
+sum_stat( subset( train , Survived == 0 ) , 
                  c( "pred_lpm","pred_logit","pred_probit" ),
                  c("mean","median","min","max","sd"),
                  num_obs = F )
 
 
-#### Bias and Calibration curve
 
-bias <- mean( ttrain$pred_logit ) - mean(ttrain$Survived)
+# GOODNESS OF FIT ---------------------------------------------------------
+
+# Got this part from Brúnó many thanks for his help!
+
+stats <- transpose(glance(lpm))
+names(stats) <- "LPM"
+StatNames <- names(glance(lpm))
+BaseStats <- cbind("Stats" = StatNames, round(stats,2))
+
+stats <- transpose(glance(logit))
+names(stats) <- "Logit"
+StatNames <- names(glance(logit))
+LogStats <- cbind("Stats" = StatNames, round(stats,2))
+
+stats <- transpose(glance(probit))
+names(stats) <- "Probit"
+StatNames <- names(glance(probit))
+ProbStats <- cbind("Stats" = StatNames, round(stats,2))
+
+goodness <- BaseStats[7:9,] %>% left_join(ProbStats[3:5,], by = "Stats") %>% 
+  left_join(LogStats[3:5,], by = "Stats")
+
+rm(BaseStats, LogStats, ProbStats)
+
+# accuracy
+accuracy <- as.data.frame(lapply(c("pred_lpm","pred_logit","pred_probit"),function(x) {
+  tl <- list()
+  tl[[x]] <- round(sum(round(train[x],0) == train$Survived)/length(train$Survived),3)*100
+  return(tl)
+}))
+
+accuracy$Stats <- "Prediction Accuracy (%)"
+
+# Brier
+briers <- as.data.frame(lapply(c("pred_lpm","pred_logit","pred_probit"),function(x) {
+  tl <- list()
+  tl[[x]] <- round(sum(  (train[c(x)]-train[c("Survived")])^2)/count(train[c("Survived")]),3)
+  names(tl[[x]]) <- x
+  return(tl)
+}))
+
+briers$Stats <- "Brier-Score"
+
+# Bias
+bias <- as.data.frame(lapply(c("pred_lpm","pred_logit","pred_probit"), function(x) {
+  tl <- list()
+  Pred <- sum(train[c(x)]) / count(train[c(x)])
+  Act <- sum(train[c("Survived")]) / count(train[c("Survived")])
+  
+  tl[[x]] <- round(Pred - Act,3)
+  names(tl[[x]]) <- x
+  return(tl)
+}))
+
+bias$Stats <- "Bias"
+
+# merge to final table
+goodness <- rbind(goodness
+                    ,bias %>% dplyr::select(Stats, pred_lpm, pred_probit, pred_logit) %>% 
+                      rename("LPM" = pred_lpm, "Logit" = pred_logit, "Probit" = pred_probit)
+                    ,briers %>% dplyr::select(Stats, pred_lpm, pred_probit, pred_logit) %>% 
+                      rename("LPM" = pred_lpm, "Logit" = pred_logit, "Probit" = pred_probit)
+                    ,accuracy %>% dplyr::select(Stats, pred_lpm, pred_probit, pred_logit) %>% 
+                      rename("LPM" = pred_lpm, "Logit" = pred_logit, "Probit" = pred_probit))
+
+rownames(goodness) <- NULL
+goodness %>% kable()
+
+
+
+
+# CALIBRATION CURVE -------------------------------------------------------
 
 #### LPM
-actual_vs_predicted <- ttrain %>%
+actual_vs_predicted <- train %>%
   ungroup() %>% 
   dplyr::select(actual = Survived, 
                 predicted = pred_lpm) 
@@ -486,7 +537,7 @@ ggplot( calibration_d,aes(x = mean_actual, y = mean_predicted)) +
   theme_calc()
 
 #### LOGIT
-actual_vs_predicted <- ttrain %>%
+actual_vs_predicted <- train %>%
   ungroup() %>% 
   dplyr::select(actual = Survived, 
                 predicted = pred_logit) 
@@ -509,7 +560,7 @@ ggplot( calibration_d,aes(x = mean_actual, y = mean_predicted)) +
   theme_calc()
 
 #### PROBIT
-actual_vs_predicted <- ttrain %>%
+actual_vs_predicted <- train %>%
   ungroup() %>% 
   dplyr::select(actual = Survived, 
                 predicted = pred_probit) 
@@ -534,8 +585,9 @@ ggplot( calibration_d,aes(x = mean_actual, y = mean_predicted)) +
 
 
 
-#### CONFUSION TABLES
-conf_table <- data.frame(ttrain$pred_lpm, ttrain$pred_logit, ttrain$pred_probit)
+# CONFUSION TABLES -------------------------------------------------------------------------
+
+conf_table <- data.frame(train$pred_lpm, train$pred_logit, train$pred_probit)
 
 # Set the threshold value
 threshold <- 0.5
@@ -548,14 +600,33 @@ for (i in 1:nrow(conf_table)) {
   }
 }
 
-
-
 # confusion matrix - does it seems similar?
 for (j in 1:ncol(conf_table)){
-  print(prop.table(table(conf_table[, j], ttrain$Survived)))
+  print(prop.table(table(conf_table[, j], train$Survived)))
 }
 
 
+
+# CHOOSEN MODEL - LPM -----------------------------------------------------
+
+ggplot( train , aes( x = pred_lpm) ) +
+  geom_histogram( fill = 'cyan4' , color = 'grey90', binwidth = 0.08)+
+  theme_calc()
+
+train <- train %>% 
+  mutate( pred_lpm_100 = ntile(pred_lpm, 100) )
+
+source("https://raw.githubusercontent.com/Viki-Meszaros/CEU-Data_analysis_2/main/Assignment_2/Codes/sum_stat.R")
+
+top <- sum_stat( subset( train , pred_lpm_100==100 ) , 
+          c('Female', 'Travel_alone', "Pclass_1", "Pclass_2", "C", "Q", "Age", "Fare"),
+          c('mean','median','sd'),
+          num_obs = F )
+
+bottom <- sum_stat( subset( train , pred_lpm_100==1 ) , 
+          c('Female', 'Travel_alone', "Pclass_1", "Pclass_2", "C", "Q", "Age", "Fare"),
+          c('mean','median','sd'),
+          num_obs = F )
 
 
 
